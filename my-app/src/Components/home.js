@@ -1,26 +1,21 @@
 import React from 'react';
 import '../App.css';
+import '../Styles/home.css';
+import Squares from '../Images/Squares.svg';
 
-function Home() {
+export const Home = () => {
     return (
-        <div>
-            <p> hello world</p>
-            <div className="index-container">
-                <div className="title-container">
-                    <span className="title-text1"> Women's Safety and Rights</span>
-                </div>
-
-                <p className="body-text">
-                    Our mission is to cultivate a secure, empowering, and inclusive digital sanctuary where women can freely share their stories, creativity, and resources. We strive to foster a supportive community where every woman feels heard, validated, and empowered to navigate the complexities of life. Through our platform, we aim to amplify women's voices, celebrate their resilience, and provide essential resources for personal safety and growth. Together, we aspire to build a world where women thrive, free from fear and discrimination.
-                </p>
-
-                <button class="btn" className="first">
-                    Art Submission
-                </button>
+        <div className="index">
+            <div className="title-container">
+                <h1> SafeHER </h1>
+                <p> A space for women to unleash their creativity. </p>
             </div>
-
+            <div className="share-container">
+                <h1> Share Your Story </h1>
+                <p> Share your experience and how ypu felt about it. We want to know. </p>
+            </div>
         </div>
     )
 }
 
-export default Home;
+// export default Home;
