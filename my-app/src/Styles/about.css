@@ -1,0 +1,123 @@
+.section-mission {
+    background-color: #e5e1d8;
+    padding-top: 20%;
+    padding-bottom: 10%;
+    margin-top: -15%;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 0 25px 20px -20px rgba(0, 0, 0, 0.4);
+}
+
+.section-mission p {
+    font-family: "Didact Gothic", sans-serif;
+    text-align: center;
+    font-size: 1rem;
+    padding: 1% 20%;
+}
+
+.section-index-main {
+    color: white;
+    align-items: center;
+    padding-left: 25%;
+    padding-top: 15%;
+    padding-right: 25%;
+    padding-bottom: 15%;
+}
+
+.section-index-main-container {
+    text-align: left;
+}
+
+.section-index-main-container h1 {
+    font-size: 5rem;
+}
+
+.section-index-main-container p {
+    padding-top: 3%;
+    font-family: "Didact Gothic", sans-serif;
+    padding-bottom: 3%;
+}
+
+.index-btn {
+    appearance: none;
+    font-family: "Didact Gothic", sans-serif;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 1.2em 2.8em;
+    text-decoration: none;
+    text-align: center;
+    box-shadow: 0 25px 20px -20px rgba(0, 0, 0, 0.4);
+}
+
+.index-btn:hover {
+    color: black;
+    outline: 0;
+    background-color: white;
+}
+
+.section-blog {
+    color: white;
+    background-color: #e3e3db;
+    padding: 20%;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    text-align: left;
+  }
+  
+  .section-blog h1{
+    color: #0d052c;
+    font-size: 4rem;
+    padding: 1%;
+  }
+  
+  .section-blog p {
+    font-family: "Didact Gothic", sans-serif;
+  }
+  
+  .section-blog h2 {
+    font-size: 2rem;
+    padding-bottom: 15px;
+  }
+  
+  .section-blog-left {
+    display:inline-block;
+  }
+  
+  .section-blog-right {
+    display:inline-block;
+    width: 45%;
+    border: 3px solid black;
+  }
+  
+  .left-top-container {
+    display: inline-flex;
+  }
+  
+  .left-top-card {
+    padding: 5%;
+    background-color: #0d052c;
+    border-radius: 50px;
+    margin: 10px;
+    box-shadow: 0 25px 20px -20px rgba(0, 0, 0, 0.4);
+  }
+  
+  .left-top-card:hover {
+    background-color: #55506B;
+    cursor: pointer;
+  }
+  
+  .right-card {
+    padding: 5%;
+    background-color: #c36464;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .left-bottom-container {
+    display: inline-flex;
+  }

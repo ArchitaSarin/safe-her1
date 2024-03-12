@@ -1,13 +1,12 @@
 import React from 'react';
 import '../App.css';
-import '../Styles/home.css';
-import Squares from '../Images/Squares.svg';
+import '../Styles/about.css';
 
 export const Home = () => {
     return (
         <div className="index">
             <div className="title-container">
-                <h1> SafeHER </h1>
+                <h1> About Page </h1>
                 <p> A space for women to unleash their creativity. </p>
             </div>
             <div className="share-container">
