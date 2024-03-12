@@ -9,9 +9,9 @@ export const Header = () => {
                 <ul>
                     <a href="/aboutme"><li>About</li></a>
                     <a href="/resources" ><li>Resources</li></a>
-                    <a href="Pages/resources.js" ><li>Logo</li></a>
-                    <a href="Pages/blog.js" ><li>Blog</li></a>
-                    <a href="Pages/card_layout.js" ><li>Art</li></a>
+                    <a href="/resources" ><li>Logo</li></a>
+                    <a href="/blog" ><li>Blog</li></a>
+                    <a href="/art" ><li>Art</li></a>
                 </ul>
             </nav>
         </div>
