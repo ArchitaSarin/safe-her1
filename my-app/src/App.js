@@ -1,4 +1,5 @@
 import './App.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 import { Home } from './Components/home.js';
 import { About } from './Components/about.js';
 import { Header } from './Components/header.js';
@@ -9,7 +10,7 @@ import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App flex flex-1">
       <Header/>
       <Router>
         <Routes>
@@ -19,7 +20,7 @@ function App() {
           <Route path='/art' element={<Art/>}/>
         </Routes>
       </Router>
-      <Footer />
+      <Footer /> 
     </div>
   );
 }
