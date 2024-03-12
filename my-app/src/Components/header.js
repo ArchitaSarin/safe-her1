@@ -7,11 +7,11 @@ export const Header = () => {
         <div class="navbar-container">
             <nav>
                 <ul>
-                    <a href="Pages/about.html" ><li>About</li></a>
-                    <a href="Pages/resources.html" ><li>Resources</li></a>
-                    <a href="Pages/resources.html" ><li>Logo</li></a>
-                    <a href="Pages/blog.html" ><li>Blog</li></a>
-                    <a href="Pages/card_layout.html" ><li>Art</li></a>
+                    <a href="/aboutme"><li>About</li></a>
+                    <a href="/resources" ><li>Resources</li></a>
+                    <a href="Pages/resources.js" ><li>Logo</li></a>
+                    <a href="Pages/blog.js" ><li>Blog</li></a>
+                    <a href="Pages/card_layout.js" ><li>Art</li></a>
                 </ul>
             </nav>
         </div>
