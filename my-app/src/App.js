@@ -1,6 +1,7 @@
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Home } from './Components/home.js';
+import { Blog } from './Components/blog.js';
 import { About } from './Components/about.js';
 import { Header } from './Components/header.js';
 import { Footer } from './Components/footer.js';
@@ -15,6 +16,7 @@ function App() {
       <Router>
         <Routes>
           <Route path='/' element={<Home/>}/>
+          <Route path='/blog' element={<Blog/>}/>
           <Route path='/aboutme' element={<About/>}/>
           <Route path='/resources' element={<Resources/>}/>
           <Route path='/art' element={<Art/>}/>
