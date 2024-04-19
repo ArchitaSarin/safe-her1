@@ -26,7 +26,7 @@ export const Header = () => {
                 <Col>
                     <Nav className="d-flex justify-content-end">
                         <Nav.Link className="navbar-text" href="/">Home</Nav.Link>
-                        <Nav.Link className="navbar-text" href="/aboutme">About</Nav.Link>
+                        <Nav.Link className="navbar-text" href="/team">Team</Nav.Link>
                         <Nav.Link className="navbar-text" href="/resources">Resources</Nav.Link>
                         <Nav.Link className="navbar-text" href="/blog">Blog</Nav.Link>
                         <Nav.Link className="navbar-text" href="/art">Art</Nav.Link>
