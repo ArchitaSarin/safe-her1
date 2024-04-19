@@ -11,7 +11,9 @@ export const Card = () => {
 
             <div className="childbottom">
                 <h2>First Last</h2>
-                <p>Position | Major, Year</p>
+                <p>Position</p>
+                <p>Major, Year</p>
+                <p>LinkedIn</p>
             </div>
 
         </div>
