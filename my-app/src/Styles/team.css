@@ -1,0 +1,48 @@
+.intro {
+    background-color: #0B032D;
+    color: #F8F8F8;
+    padding: 5%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.parent {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.child {
+    display: inline-block;
+    width: 25%;
+    border-radius: 20px;
+    margin: 2%;
+}
+
+h2 {
+    font-size: 20px;
+    padding-bottom: 5px;
+    color: black;
+}
+
+img {
+    max-width: 100%;
+}
+
+.childtop {
+    padding: 30%;
+    background-color: #D9D9D9;
+    width: 100%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.childbottom {
+    padding: 10%;
+    background-color: #F0F0F0;
+    width: 100%;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
