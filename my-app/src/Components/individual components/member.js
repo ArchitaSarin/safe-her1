@@ -1,12 +1,13 @@
 import React from 'react';
 import '../../Styles/team.css';
+import Headshot from '../../Images/placeholder.jpg';
 
 export const Card = () => {
     return (
         <div className="child">
 
             <div className="childtop">
-            [img]
+                <img src={Headshot} alt="placeholder"/>
             </div>
 
             <div className="childbottom">
