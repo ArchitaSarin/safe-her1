@@ -9,17 +9,22 @@ export const Team = () => {
             <div className="intro">
                 <h1> Meet Us </h1>
                 <p>UC Davis students wanting to make a change.</p>
+                
                 <div>
                     <Card/>
                     <Card/>
                     <Card/>
                     <Card/>
-                    
+
                     <Card/>
                     <Card/>
                     <Card/>
                     <Card/>
                 </div>
+            </div>
+
+            <div className="team_impact">
+                
             </div>
         </div>
     )
