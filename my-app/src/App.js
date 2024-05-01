@@ -7,7 +7,7 @@ import { Header } from './Components/header.js';
 import { Footer } from './Components/footer.js';
 import { Resources } from './Components/resources.js';
 import { Art } from './Components/art.js';
-import { ArtDisplay } from './Components/artdisplay.js';
+import ArtDisplay from './Components/artdisplay.js';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 function App() {
