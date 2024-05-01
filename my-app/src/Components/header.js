@@ -30,6 +30,7 @@ export const Header = () => {
                         <Nav.Link className="navbar-text" href="/resources">Resources</Nav.Link>
                         <Nav.Link className="navbar-text" href="/forum">Forum</Nav.Link>
                         <Nav.Link className="navbar-text" href="/art">Art</Nav.Link>
+                        <Nav.Link className="navbar-text" href="/artdisplay">Display</Nav.Link>
                     </Nav>
                 </Col>
             </Row>

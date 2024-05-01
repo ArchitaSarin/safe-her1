@@ -1,6 +1,8 @@
 import React from 'react';
 import '../App.css';
 import '../Styles/art.css';
+import Alley from '../Images/alley.jpg';
+
 
 export const Art = () => {
     return (
@@ -19,7 +21,7 @@ export const Art = () => {
 
             <div class="grid-container">
                 <div class="grid-item">
-                <a href="https://ghiblicollection.com/cdn/shop/products/totoro_hires_1_7dc984c6-a680-4b5e-ac19-642c5e7617ce.jpg?v=1675792119&width=1920"><img src="https://ghiblicollection.com/cdn/shop/products/totoro_hires_1_7dc984c6-a680-4b5e-ac19-642c5e7617ce.jpg?v=1675792119&width=1920" /></a>
+                <img src={Alley} />
                     <span>Img 1</span>
                 </div>
                 
