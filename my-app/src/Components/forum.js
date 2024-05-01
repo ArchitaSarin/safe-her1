@@ -1,13 +1,13 @@
 import React from 'react';
 import '../App.css';
-import '../Styles/blog.css';
+import '../Styles/forum.css';
 
 
 export const Blog = () => {
     return (
         <div className="index">
             <div className="intro-container">
-                <h1> Blog </h1>
+                <h1> Forum </h1>
                 <p> Share your experience and how you felt about it. We want to know. </p>
             </div>
             <div className="blog-child-left">
