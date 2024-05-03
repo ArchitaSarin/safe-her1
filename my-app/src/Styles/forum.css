@@ -35,21 +35,98 @@
 }
 
 .intro-container {
-    color: #F8F8F8;
-    background-color: #7E6E6E;
-    padding: 10%;
-    border-bottom-right-radius: 50px;
-    border-bottom-left-radius: 50px;
-    text-align: center;
-  }
-  
-  .intro-container h1{
-    color: #F8F8F8;
-    font-size: 4rem;
-    padding: 1%;
-  }
-  
-  .intro-container p {
-    font-family: "Didact Gothic", sans-serif;
-    color: #F8F8F8;
-  }
+  color: #F8F8F8;
+  background-color: #7E6E6E;
+  padding: 10%;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  text-align: center;
+}
+
+.parent {
+  margin: 1rem;
+  padding: 2rem 2rem;
+  text-align: center;
+}
+.child {
+  display: inline-block;
+  border: 1px solid white;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+  color: white;
+}
+
+/* SEARCH BAR CONTAINER */
+.search-local {
+	width: 100%;
+	max-width: 75rem;
+	display: flex;
+	align-items: center;
+	column-gap: 2rem;
+	padding-left: 2rem;
+	background: var(--white);
+	border-radius: 1rem;
+	min-height: 50px;
+	height: auto;
+	border: 0.1rem solid var(--black);
+	border-right: none;
+}
+
+/* ICON */
+.icon {
+	color: var(--red);
+	font-size: 3.5rem;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+
+.icon:hover {
+	animation: funny-icon 0.4s ease-in-out;
+}
+
+@keyframes funny-icon {
+	0% {
+		scale: 1;
+	}
+
+	50% {
+		scale: 0.8;
+		transform-origin: bottom;
+		transform: rotate(-15deg);
+	}
+
+	100% {
+		scale: 1;
+	}
+}
+
+/* INPUT */
+.search-local input {
+	height: 100%;
+	width: 100%;
+	background: var(--white);
+	display: flex;
+	outline: none;
+	border: none;
+	color: var(--black);
+	font-size: 1rem;
+}
+
+input[type="text"]::placeholder {
+	color: var(--black);
+	font-size: 1rem;
+}
+
+/* BUTTON */
+.search-local button {
+	background: var(--red);
+	border: none;
+	border-radius: 0 1rem 1rem 0;
+	font-weight: 500;
+	font-size: 1.4rem;
+	width: 70%;
+	cursor: pointer;
+	transition: all 0.3s;
+	text-align: center;
+}
