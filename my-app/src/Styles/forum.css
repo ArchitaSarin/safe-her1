@@ -19,15 +19,19 @@
     align-items: flex-end;
 }
 */
-.index {
-    
-    background-attachment: scroll;
-    background-size: contain;
-    background-repeat: no-repeat;
-    align-items: center;
-    height: 100vh;
-    overflow-y: scroll;
-    background-color: rgb(227, 227, 227);
+.forum-intro {
+  background-color: #e5e1d8;
+  padding-top: 20%;
+  padding-bottom: 10%;
+  margin-top: -15%;
+  border-radius: 50px;
+  text-align: center;
+  box-shadow: 0 25px 20px -20px rgba(0, 0, 0, 0.4);
+}
+
+.form-intro h1{
+  font-size: 40px;
+  font-weight: bold;
 }
 
 .intro-container {

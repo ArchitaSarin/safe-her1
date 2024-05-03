@@ -5,8 +5,8 @@ import '../Styles/forum.css';
 
 export const Forum = () => {
     return (
-        <div className="index">
-            Forum
+        <div className="forum-intro">
+            <h1>Forum</h1>
         </div>
     )
 }
