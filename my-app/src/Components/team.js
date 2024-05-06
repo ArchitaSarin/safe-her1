@@ -32,9 +32,9 @@ export const Team = () => {
             <div className="team_impact">
                 <h1> Our Values </h1>
                 <div className="pillars-parent">
-                    <div className="pillars-child">child</div>
-                    <div className="pillars-child">child</div>
-                    <div className="pillars-child">child</div>
+                    <div className="pillars-child">Compassion</div>
+                    <div className="pillars-child">Inclusivity</div>
+                    <div className="pillars-child">Empowerment</div>
                 </div>
             </div>
         </div>
