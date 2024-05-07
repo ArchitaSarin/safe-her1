@@ -21,3 +21,63 @@ export const Card = () => {
 
     )
 }
+
+export const Archita = () => {
+    return (
+        <div className="child">
+
+            <div className="childtop">
+                <img src={Headshot} alt="placeholder"/>
+            </div>
+
+            <div className="childbottom">
+                <h2>Archita Sarin</h2>
+                <p>Project Manager</p>
+                <p>Major, Year</p>
+                <p>LinkedIn</p>
+            </div>
+
+        </div>
+
+    )
+}
+
+export const Giang = () => {
+    return (
+        <div className="child">
+
+            <div className="childtop">
+                <img src={Headshot} alt="placeholder"/>
+            </div>
+
+            <div className="childbottom">
+                <h2>Giang Le</h2>
+                <p>Position</p>
+                <p>Major, Year</p>
+                <p>LinkedIn</p>
+            </div>
+
+        </div>
+
+    )
+}
+
+export const Grisha = () => {
+    return (
+        <div className="child">
+
+            <div className="childtop">
+                <img src={Headshot} alt="placeholder"/>
+            </div>
+
+            <div className="childbottom">
+                <h2>Grisha Bandodkar</h2>
+                <p>Position</p>
+                <p>Major, Year</p>
+                <p>LinkedIn</p>
+            </div>
+
+        </div>
+
+    )
+}

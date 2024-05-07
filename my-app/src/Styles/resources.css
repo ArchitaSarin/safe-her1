@@ -2,7 +2,7 @@
 
 .top-resource-heading {
     font-family: "David Libre";
-    color: #e3e3db;
+    color: #E8848E;
     text-align: center;
     font-size: 4rem;
     padding: 5%;
@@ -24,7 +24,7 @@
 
 .on-resources {
     display: block;
-    background-color: #e3e3db;
+    background-color: #F9F4F1;
     padding: 10%;
     border-radius: 50px;
     text-align: center;
@@ -41,10 +41,12 @@
 
 .on-resources .resource-card {
     margin: 15px;
-    background-color: #55506B;
+    background-color: #F7B1B8;
     padding: 5%;
     vertical-align: middle;
+    color: #E8848E;
     display: inline-block;
+    border-radius: 10px;
 }
 
 .on-resources .resource-card:hover {
@@ -73,13 +75,14 @@
 .off-resources h1 {
     padding-bottom: 15px;
     font-size: 3rem;
-    color: white;
+    color: #E8848E;
     text-align: center;
 }
 
 .off-resources .resource-card {
     margin: 15px;
-    background-color: #e3e3db;
+    background-color: #BDC1F9;
+    border-radius: 10px;
     padding: 5%;
     vertical-align: middle;
     display: inline-block;
