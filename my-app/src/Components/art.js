@@ -2,7 +2,14 @@ import React from 'react';
 import '../App.css';
 import '../Styles/art.css';
 import Alley from '../Images/alley.jpg';
-
+import Build from '../Images/build.png';
+import ColorBG from '../Images/coloredbackground.jpg';
+import Face from '../Images/face.png';
+import Girlhood from '../Images/girlhood.jpg';
+import Group from '../Images/group.png';
+import Hike from '../Images/hike.png';
+import Hold from '../Images/hold.png';
+import Mili from '../Images/mili.png';
 
 export const Art = () => {
     return (
@@ -21,53 +28,98 @@ export const Art = () => {
 
             <div class="grid-container">
                 <div class="grid-item">
-                <img src={Alley} />
-                    <span>Img 1</span>
+                    <img src={Girlhood} alt="girlhood abstract art"/>
+                    <span>Girlhood by Sania</span>
                 </div>
                 
                 <div class="grid-item">
-                    <a href="https://cdn.britannica.com/87/212187-050-5DB765AE/My-Neighbor-Totoro-Hayao-Miyazaki-Studio-Ghibli-movie-still-1988.jpg"><img src="https://cdn.britannica.com/87/212187-050-5DB765AE/My-Neighbor-Totoro-Hayao-Miyazaki-Studio-Ghibli-movie-still-1988.jpg" /></a>
+                    <img src={Build} alt="Woman in front of building"/>
                     <span>Img 2</span>
                 </div>
                 
                 <div class="grid-item">
-                <a href="http://grrlathr.com/woodworkingstand/picture-frame-design-on-walls-plans-diy-free-download-plans-to-build-bunk-beds"><img src="https://cdn.mos.cms.futurecdn.net/sfwkJExvw3KUKTEiHUEaYW-1200-80.jpg" /></a>
+                    <img src={ColorBG} alt="Colors"/>
                     <span>Img 3</span>
                 </div>
                 
                 <div class="grid-item">
-                <a href="https://media.cnn.com/api/v1/images/stellar/prod/200120074521-spirited-away-studio-ghibli.jpg?c=16x9&q=w_800,c_fill"><img src="https://media.cnn.com/api/v1/images/stellar/prod/200120074521-spirited-away-studio-ghibli.jpg?c=16x9&q=w_800,c_fill"/></a>
+                    <img src={Face} alt="face"/>
                     <span> Img 4</span>
                 </div>
                 
                 <div class="grid-item">
-                <a href="https://m.media-amazon.com/images/M/MV5BZjE1MzJlNjYtNDI3ZS00MzRkLTlhMDYtNDU5YWU3YTI3Yzg0XkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg"><img src="https://m.media-amazon.com/images/M/MV5BZjE1MzJlNjYtNDI3ZS00MzRkLTlhMDYtNDU5YWU3YTI3Yzg0XkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg" /></a>
+                <img src={Alley} alt="Alleyway"/>
                     <span>Img 5</span>
                 </div>
                 
                 <div class="grid-item">
-                <a href="https://i.pinimg.com/564x/69/cc/f4/69ccf4b3cb15a77b297c67a191dcb16d.jpg"><img src="https://i.pinimg.com/564x/69/cc/f4/69ccf4b3cb15a77b297c67a191dcb16d.jpg" /></a>
+                    <img src={Group} alt="group of figures art piece"/>
                     <span>Img 6</span>
                 </div>
         
                 <div class="grid-item">
-                    <a href="https://assets.apnews.com/03/b8/bc02a55d3c4519bc71674ae6fa43/abdd07db3bfb43169f9fab0ebee98ed1"><img src="https://assets.apnews.com/03/b8/bc02a55d3c4519bc71674ae6fa43/abdd07db3bfb43169f9fab0ebee98ed1" /></a>
+                    <img src={Hike} alt="hike"/>
                     <span>Img 7</span>
                 </div>
                     
                 <div class="grid-item">
-                    <a href="https://prd-rteditorial.s3.us-west-2.amazonaws.com/wp-content/uploads/2023/04/05093930/600BoyHeron3.jpg"><img src="https://prd-rteditorial.s3.us-west-2.amazonaws.com/wp-content/uploads/2023/04/05093930/600BoyHeron3.jpg" /></a>
+                    <img src={Hold} alt="hold"/>
                     <span>Img 8</span>
                 </div>
         
                 <div class="grid-item">
-                    <a href="https://cdn.posteritati.com/posters/000/000/064/138/my-neighbor-totoro-md-web.jpg"><img src="https://cdn.posteritati.com/posters/000/000/064/138/my-neighbor-totoro-md-web.jpg" /></a>
+                    <img src={Mili} alt="Mili in nature"/>
                     <span>Img 9</span>
                 </div>
                     
                 <div class="grid-item">
                     <a href="https://i.ebayimg.com/images/g/ARsAAOSw9rVeNSI6/s-l1600.jpg"><img src="https://i.ebayimg.com/images/g/ARsAAOSw9rVeNSI6/s-l1600.jpg" /></a>
                     <span>Img 10</span>
+                </div>
+
+                <div class="grid-item">
+                    <img src={Girlhood} alt="girlhood abstract art"/>
+                    <span>Girlhood by Sania</span>
+                </div>
+                
+                <div class="grid-item">
+                    <img src={Build} alt="Woman in front of building"/>
+                    <span>Img 2</span>
+                </div>
+                
+                <div class="grid-item">
+                    <img src={ColorBG} alt="Colors"/>
+                    <span>Img 3</span>
+                </div>
+                
+                <div class="grid-item">
+                    <img src={Face} alt="face"/>
+                    <span> Img 4</span>
+                </div>
+                
+                <div class="grid-item">
+                <img src={Alley} alt="Alleyway"/>
+                    <span>Img 5</span>
+                </div>
+                
+                <div class="grid-item">
+                    <img src={Group} alt="group of figures art piece"/>
+                    <span>Img 6</span>
+                </div>
+        
+                <div class="grid-item">
+                    <img src={Hike} alt="hike"/>
+                    <span>Img 7</span>
+                </div>
+                    
+                <div class="grid-item">
+                    <img src={Hold} alt="hold"/>
+                    <span>Img 8</span>
+                </div>
+        
+                <div class="grid-item">
+                    <img src={Mili} alt="Mili in nature"/>
+                    <span>Img 9</span>
                 </div>
             </div>
         </div>
