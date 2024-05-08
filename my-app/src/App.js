@@ -7,6 +7,7 @@ import { Header } from './Components/header.js';
 import { Footer } from './Components/footer.js';
 import { Resources } from './Components/resources.js';
 import { Art } from './Components/art.js';
+import { TestLogin } from './Components/testlogin.js';
 import ArtDisplay from './Components/artdisplay.js';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
@@ -22,6 +23,7 @@ function App() {
           <Route path='/resources' element={<Resources/>}/>
           <Route path='/art' element={<Art/>}/>
           <Route path='/artdisplay' element={<ArtDisplay/>}/>
+          <Route path='/test-login' element={<TestLogin/>} />
         </Routes>
       </Router>
       <Footer /> 
