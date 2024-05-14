@@ -7,7 +7,7 @@ export const About = () => {
         <div> 
             <div class="section-mission">
                 <h1>Our Mission</h1>
-                <p>Our mission is to cultivate a secure, empowering, and inclusive digital sanctuary where women can freely share their stories, creativity, and resources. We strive to foster a supportive community where every woman feels heard, validated, and empowered to navigate the complexities of life. Through our platform, we aim to amplify women's voices, celebrate their resilience, and provide essential resources for personal safety and growth. Together, we aspire to build a world where women thrive, free from fear and discrimination.</p>
+                <p>A digital sanctuary for women: Amplifying voices, fostering community.</p>
             </div>
 
             <div class="section-index-main">
