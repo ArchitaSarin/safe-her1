@@ -1,5 +1,72 @@
+/* header stylings */
+#header{
+    background-color: #F7B1B8;
+    height: 242px;
+    padding-top: 48px;
+    padding-bottom: 148px;
+    border-bottom: 10%;
+    margin-bottom: 100px;
+    border-radius: 0px 0px 70px 70px;
+}
+.header-text{
+    font-size: 68px;
+    font-weight: bolder;
+    
+}
+#header-small-text{
+    color: #C16265;
+    font-weight:bolder;
+}
+
+#main-page{
+    background-color: white;
+}
+
+/* card stylings */
+#card-section{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 42px;
+   
+}
+.card{
+    width: 414px;
+    height: 304px;
+    background-color: #F7B1B8;
+    border-radius: 15px;
+}
+.card-title{
+ 
+    color:black;
+    background-color: #E8848E;
+    border-radius: 15px;
+    width: 414px;
+    padding:20px;
+
+}
+
+.card-p{
+    width: 414px;
+    height: 304px;
+    background-color: #CED2FF;
+    border-radius: 10%;
+}
+.card-title-p{
+ 
 
 
+    color:black;
+    background-color: #B3B7EE;
+    border-radius: 15px;
+    width: 414px;
+    padding:20px;
+
+}
+
+
+
+
+/* old stylings */
 .top-resource-heading {
     font-family: "David Libre";
     color: #E8848E;

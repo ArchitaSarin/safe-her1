@@ -4,69 +4,54 @@ import '../Styles/resources.css';
 
 export const Resources = () => {
     return (
-        <div className="index">
-            <h1 class="top-resource-heading">Resources</h1>
-            <div class="on-resources">
+      
+        <div id="main-page">
 
-                <h1>
-                    On Campus Resources
-                </h1>
-
-                <div class="resource-container">
-                    <div class="resource-card">
-                        <h2>US Davis Women Resources and Research Center (WRRC)</h2>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat, dui eget maximus hendrerit, nibh libero ultricies diam,
-                        </p>
-                    </div>
-
-                    <div class="resource-card">
-                        <h2>US Davis Women Resources and Research Center (WRRC)</h2>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat, dui eget maximus hendrerit, nibh libero ultricies diam,
-                        </p>
-                    </div>
-
-                    <div class="resource-card">
-                        <h2>US Davis Women Resources and Research Center (WRRC)</h2>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat, dui eget maximus hendrerit, nibh libero ultricies diam,
-                        </p>
-                    </div>
-
-                </div>
+            <div id="header">
+                <h1 class="header-text">Resources</h1>
+                <p id="header-small-text">We want you to be safe, happy and heard</p>
             </div>
 
-            <div class="off-resources">
 
-                <h1> Off-campus Resources </h1>
+            <div id="card-section">
 
-                <div class="resource-container">
-                    
-
-                    <div class="resource-card">
-                        <h2>US Davis Women Resources and Research Center (WRRC)</h2>
+                <div class="card">
+                   
+                        <h1 class="card-title">Crime Rates</h1>
+           
+                    <div class="card-desc-">
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat, dui eget maximus hendrerit, nibh libero ultricies diam,
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqui
                         </p>
                     </div>
-
-                    <div class="resource-card">
-                        <h2>US Davis Women Resources and Research Center (WRRC)</h2>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat, dui eget maximus hendrerit, nibh libero ultricies diam,
-                        </p>
-                    </div>
-
-                    <div class="resource-card">
-                        <h2>US Davis Women Resources and Research Center (WRRC)</h2>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat, dui eget maximus hendrerit, nibh libero ultricies diam,
-                        </p>
-                    </div>
-
                 </div>
+
+
+                <div class="card-p">
+                   
+                        <h1 class="card-title-p">Crime Rates</h1>
+           
+                    <div class="card-desc-p">
+                        <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqui
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card">
+                   
+                        <h1 class="card-title">Crime Rates</h1>
+           
+                    <div class="card-desc-">
+                        <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqui
+                        </p>
+                    </div>
+                </div>
+
             </div>
+
+
         </div>
     )
 }
