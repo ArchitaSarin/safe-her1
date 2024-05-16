@@ -11,45 +11,41 @@ export const Resources = () => {
                 <h1 class="header-text">Resources</h1>
                 <p id="header-small-text">We want you to be safe, happy and heard</p>
             </div>
-
-
-            <div id="card-section">
-
-                <div class="card">
-                   
-                        <h1 class="card-title">Crime Rates</h1>
-           
-                    <div class="card-desc-">
-                        <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqui
-                        </p>
-                    </div>
-                </div>
-
-
-                <div class="card-p">
-                   
-                        <h1 class="card-title-p">Crime Rates</h1>
-           
-                    <div class="card-desc-p">
-                        <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqui
-                        </p>
-                    </div>
-                </div>
-
-                <div class="card">
-                   
-                        <h1 class="card-title">Crime Rates</h1>
-           
-                    <div class="card-desc-">
-                        <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqui
-                        </p>
-                    </div>
-                </div>
+            <div id="header-two">
+                <p id="header-two-text">
+                Because we are based in  UC Davis, most of our resources will be located there.
+                <br></br>
+                <br></br>
+                If this is an emergency,  call 911.
+                </p>
 
             </div>
+
+            <div id="card-section">
+                <div id="resource-cards">
+                    <h1 class="card-header">Center for Resources</h1>
+                    <hr class="line"/>
+
+                </div>
+
+                <div id="health-cards">
+                    <h1 class="card-header">Mental Health</h1>
+                    <hr class="line"/>
+
+                </div>
+
+                <div id="domestic--cards">
+                <h1 class="card-header">Domestic Violence</h1>
+                <hr class="line"/>
+
+                </div>
+
+                
+
+            </div>
+
+
+            
 
 
         </div>
