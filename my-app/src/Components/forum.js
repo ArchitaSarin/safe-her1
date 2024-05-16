@@ -7,21 +7,22 @@ export const Forum = () => {
     return (
         <div>
             <div className="forum-intro">
-                <h1>Forum</h1>
-
-                <div className="forum-search-bar">
-                <input type="text" placeholder="Search here"></input>
-                <button>
-                    <a href="#">Search</a>
-                    <ion-icon name="search-outline" class="search-icon"></ion-icon>
-                </button>
-                
-            </div>
+                <p>Create a New Post</p>
             </div>
 
             <div className='parent'>
-                <div className='child'>child 1</div>
-                <div className='child'>child 2</div>
+
+                <div className='left-child'>
+                    <input class="w3-input" type="text" value="Title"/>
+                    <input class="w3-input" type="text" value="What's on your mind?"/>
+                </div>
+
+                <div className='right-child'>
+                    <p> posts </p>
+                    <div class='tile'></div>
+                    <div class='tile'></div>
+                    <div class='tile'></div>
+                </div>
             </div>
         </div>
     )
