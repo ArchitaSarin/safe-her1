@@ -18,10 +18,32 @@ export const Forum = () => {
                 </div>
 
                 <div className='right-child'>
-                    <p> posts </p>
-                    <div class='tile'></div>
-                    <div class='tile'></div>
-                    <div class='tile'></div>
+                    <div class='tile'>
+                        <img/>
+                        <h2> Photogenic Phrases </h2>
+                        <p>
+                            I’m reading a book on anti gravity it’s impossible to put down!
+                        </p>
+
+                    </div>
+                    
+                    <div class='tile'>
+                        <img/>
+                        <h2> Photogenic Phrases </h2>
+                        <p>
+                            I’m reading a book on anti gravity it’s impossible to put down!
+                        </p>
+
+                    </div>
+
+                    <div class='tile'>
+                        <img/>
+                        <h2> Photogenic Phrases </h2>
+                        <p>
+                            I’m reading a book on anti gravity it’s impossible to put down!
+                        </p>
+
+                    </div>
                 </div>
             </div>
         </div>
