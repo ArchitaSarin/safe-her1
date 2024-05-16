@@ -5,7 +5,7 @@
   align-items: center;
   justify-content: center;
   font-family: "Didact Gothic", sans-serif;
-  background: #f6f6f6;
+  background: #E8848E;
   border-bottom-left-radius: 50px;
   border-bottom-right-radius: 50px;
   text-align: center;
@@ -17,18 +17,17 @@
 
 .navbar-subcontainer {
   padding: 20px;
-  background: #0B032D !important;
+  background: #CED2FF !important;
   border-bottom-left-radius: 50px;
   border-bottom-right-radius: 50px;
 }
 
 .logo-text {
   color: #C16265 !important;
-
 }
 
 .navbar-text {
-  color: #E5E1D8 !important;
+  color: #000 !important;
   padding-right: 50px !important;
   font-weight: bold;
 }
@@ -45,7 +44,7 @@ nav ul li {
   margin: 10px;
   font-size: 18px;
   font-weight: 500;
-  color: #0d052c;
+  color: #000;
   cursor: pointer;
   position: relative;
   z-index: 2;
@@ -54,7 +53,7 @@ nav ul li {
 
 nav ul li::after {
   content: "";
-  background: #EEA5A6;
+  background: #000;
   cursor: pointer;
   width: 100%;
   height: 100%;
@@ -68,7 +67,7 @@ nav ul li::after {
   transition: top 0.5s, opacity 0.5s;
 }
 nav ul li:hover {
-  color: #fff;
+  color: #000;
   cursor: pointer;
 }
 nav ul li:hover::after {
