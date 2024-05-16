@@ -40,8 +40,9 @@
 }
 
 body {
-  background: linear-gradient(45deg, #c36464, #0d052c, #bfb1b5, #c36464);
-	background-size: 400% 400%;
+  background-color: #C1C1C1;
+  /* background: linear-gradient(45deg, #c36464, #0d052c, #bfb1b5, #c36464);
+	background-size: 400% 400%; */
 	animation: gradientBG 15s ease infinite;
   place-items: center;
   height: 100%;
