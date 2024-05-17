@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Inter:wght@100..900&display=swap');
 
-.App {
-  text-align: center;
-}
 
 .App-logo {
   height: 200vmin;
@@ -40,8 +37,10 @@
 }
 
 body {
-  background: linear-gradient(45deg, #c36464, #0d052c, #bfb1b5, #c36464);
-	background-size: 400% 400%;
+  background-color: #C1C1C1;
+  /* background: linear-gradient(45deg, #c36464, #0d052c, #bfb1b5, #c36464);
+	background-size: 400% 400%; */
+  /*background: linear-gradient(#FDF8F8, #F7B1B8);*/
 	animation: gradientBG 15s ease infinite;
   place-items: center;
   height: 100%;
