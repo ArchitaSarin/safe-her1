@@ -17,6 +17,15 @@
     color:#C16265;
     font-weight: bolder;
 }
-.heart{
-    max-width: 25px;
+
+
+.header-box{
+    background-color: #F9F4F1;
+    border-radius: 20px 20px 20px 20px;
+    max-width: 496px;
+    max-height: 398px;
+    padding: 25px;
+}
+.box-phone{
+    background-color: #E8848E;
 }
