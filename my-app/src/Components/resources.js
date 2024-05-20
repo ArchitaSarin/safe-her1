@@ -2,7 +2,7 @@ import React from 'react';
 import '../App.css';
 import '../Styles/resources.css';
 import HeaderImage from '../Images/resources-header.png'
-import Heart from '../Images/heart-regular.svg'
+import Heart from '../Images/heart-small.svg'
 
 
 export const Resources = () => {
