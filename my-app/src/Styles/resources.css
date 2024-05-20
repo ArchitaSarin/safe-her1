@@ -1,3 +1,19 @@
 #resources-header{
-  background-color: pink;
+    background-image:url('../Images/resources-header.png');
+    max-height:1728px;
+    min-height: 400px;
+    width:auto;
+    background-repeat: no-repeat;
+}
+#header-text{
+    text-align: center;
+}
+#header-main-text{
+    color:#E8848E;
+    font-size: 100px;
+    font-weight: bolder;
+}
+#header-small-text{
+    color:#C16265;
+    font-weight: bolder;
 }
