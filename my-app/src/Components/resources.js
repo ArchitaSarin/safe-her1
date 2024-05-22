@@ -8,9 +8,15 @@ import Globe from '../Images/resource-globe.svg';
 import PinkLocation from '../Images/pink-location.svg';
 import GreenLoaction from '../Images/green-location.svg';
 
-import Card1 from '../Images/resource-card-1.png';
-import Card2 from '../Images/resource-card-2.png';
-import Card3 from '../Images/resource-card-3.png';
+import Card1 from '../Images/card1.png';
+import Card2 from '../Images/card2.png';
+import Card3 from '../Images/card3.png';
+import Card4 from '../Images/card4.png';
+import Card5 from '../Images/card5.png';
+import Card6 from '../Images/card6.png';
+import Card7 from '../Images/card7.png';
+import Card8 from '../Images/card8.png';
+import Card9 from '../Images/card9.png';
 
 
 
@@ -114,12 +120,14 @@ export const Resources = () => {
                 </div>
                 <div class="resource-wraper">
                     <div class="resource-images">
-                        <img src={Card1} class="image-card"/>
-                        <img src={Card2} class="image-card"/>
-                        <img src={Card3} class="image-card"/>
-
-                        <img src={Card1} class="image-card"/>
-                        <img src={Card2} class="image-card"/>
+                        <a href="https://www.netflix.com/" target="_blank"><img src={Card1} class="image-card"/> </a>
+                        <a href="https://www.netflix.com/" target="_blank"><img src={Card2} class="image-card"/> </a>
+                        <a href="https://www.netflix.com/" target="_blank"><img src={Card3} class="image-card"/> </a>
+                        <a href="https://www.netflix.com/" target="_blank"><img src={Card4} class="image-card"/> </a>
+                        <a href="https://www.netflix.com/" target="_blank"><img src={Card5} class="image-card"/> </a>
+                        <a href="https://www.netflix.com/" target="_blank"><img src={Card6} class="image-card"/> </a>
+                       
+              
                         
 
                      
@@ -138,10 +146,9 @@ export const Resources = () => {
                 </div>
 
                 <div class="resource-images">
-                        <a href="https://www.netflix.com/" target="_blank"><img src={Card1} class="image-card"/> </a>
-                        <a href="https://www.netflix.com/" target="_blank"><img src={Card1} class="image-card"/> </a>
-                        <a href="https://www.netflix.com/" target="_blank"><img src={Card1} class="image-card"/> </a>
-                        <a href="https://www.netflix.com/" target="_blank"><img src={Card1} class="image-card"/> </a>
+                        <a href="https://www.netflix.com/" target="_blank"><img src={Card7} class="image-card"/> </a>
+                        <a href="https://www.netflix.com/" target="_blank"><img src={Card8} class="image-card"/> </a>
+                        <a href="https://www.netflix.com/" target="_blank"><img src={Card9} class="image-card"/> </a>
               
 
                      
