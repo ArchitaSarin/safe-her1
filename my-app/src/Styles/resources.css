@@ -1,3 +1,6 @@
+img{
+    max-width: none;
+}
 #resources-header{
     background-image:url('../Images/resources-header.png');
     max-height:1728px;
@@ -92,9 +95,8 @@
     margin-left: 48px;
 }
 .image-card{
-    height: 250px;
-    width:auto;
-    scroll-snap-align: start;
+    flex: 0 0 auto;
+   
 }
 
 
@@ -106,13 +108,23 @@
      overflow-x: scroll;
      margin-left: 48px;
      margin-bottom: 28px;
+     height:100%;
+     white-space: nowrap;
+}
 
-
+.resource-images a {
+    display: inline-block;
 }
 
 #resource-1{
     margin-top: 110px;
 }
+
+
+
+
+
+
 
 
 

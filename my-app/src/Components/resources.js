@@ -131,31 +131,44 @@ export const Resources = () => {
 
             </div>
 
-            <div id="resource-1" class="resouce-section">
+            <div id="resource-2" class="resouce-section">
                 <div class="resource-title">
                     <h2> <img src={PinkLocation}/> UC Davis Specific Resources</h2>
 
                 </div>
-                <div class="resource-wraper">
-                    <div class="resource-images">
 
-                        <a href="" target="_blank">   <img src={Card1} class="image-card"/>  </a>
-                        <a href="" target="_blank">   <img src={Card2} class="image-card"/>  </a>
-                        <a href="" target="_blank">   <img src={Card3} class="image-card"/>  </a>
-                        <a href="" target="_blank">   <img src={Card1} class="image-card"/>  </a>
-                        <a href="" target="_blank">   <img src={Card3} class="image-card"/>  </a>
+                <div class="resource-images">
+                        <a href="https://www.netflix.com/" target="_blank"><img src={Card1} class="image-card"/> </a>
+                        <a href="https://www.netflix.com/" target="_blank"><img src={Card1} class="image-card"/> </a>
+                        <a href="https://www.netflix.com/" target="_blank"><img src={Card1} class="image-card"/> </a>
+                        <a href="https://www.netflix.com/" target="_blank"><img src={Card1} class="image-card"/> </a>
               
-                    
-                        
 
                      
                 
 
                     </div>
 
-                </div>
+                
+                
+                
+             
+                      
+                    
+              
+                   
+              
+                  
+                        
+
+                     
+                
 
             </div>
+
+                
+
+            
 
 
         </div>
