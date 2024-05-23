@@ -187,3 +187,10 @@ img{
     display: flex;
     justify-content: center;
 }
+
+#data-card{
+    margin-left:90px;
+}
+#data-link{
+    margin-bottom: 150px;
+}

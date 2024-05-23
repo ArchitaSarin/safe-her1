@@ -21,6 +21,7 @@ import Card8 from '../Images/card8.png';
 import Card9 from '../Images/card9.png';
 import Card10 from '../Images/card10.png';
 import Card11 from '../Images/card11.png';
+import DataCard from '../Images/dataCard.png';
 
 
 
@@ -273,6 +274,14 @@ export const Resources = () => {
                         </div>
 
         </div>
+
+
+    </div>
+
+    <div id="data-link">
+            <h2 class="resource-title"> <img src={Article}/> Data Visualization & Graphs</h2>
+            <a href="dataViz.js" target="_blank" id="data-card"><img src={DataCard} class="image-card"/> </a>
+
 
 
     </div>
