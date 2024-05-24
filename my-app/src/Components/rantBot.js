@@ -53,7 +53,7 @@ export const RantBot = () => {
 
   return (
     <div>
-        <div className="header">
+        <div className="header-bot">
             <h1>Rant To Us</h1>
         </div>
         <div className="chat-container">
@@ -92,44 +92,46 @@ export const RantBot = () => {
             )}
             <div ref={messagesEndRef} />
         </div>
-        {rateLimitExceeded ? (
-            <div className="rate-limit-message">
-            Rate limit exceeded. Please refresh the page or restart the conversation.
-            </div>
-        ) : (
-            <div className="input-section">
-            {messages.length === 0 && input.trim() === "" && (
-                <div className="prompts">
-                    <div className="prompt" onClick={() => handlePromptClick("I'm feeling overwhelmed lately.")}>
-                        I'm feeling overwhelmed lately.
+            <div className="bottom-component">
+                {rateLimitExceeded ? (
+                    <div className="rate-limit-message">
+                    Rate limit exceeded. Please refresh the page or restart the conversation.
                     </div>
-                    <div className="prompt" onClick={() => handlePromptClick("Can I vent about my day?")}>
-                        Can I vent about my day?
+                ) : (
+                    <div className="input-section">
+                    {messages.length === 0 && input.trim() === "" && (
+                        <div className="prompts">
+                            <div className="prompt" onClick={() => handlePromptClick("I'm feeling overwhelmed lately.")}>
+                                I'm feeling overwhelmed lately.
+                            </div>
+                            <div className="prompt" onClick={() => handlePromptClick("Can I vent about my day?")}>
+                                Can I vent about my day?
+                            </div>
+                            <div className="prompt" onClick={() => handlePromptClick("I need to talk about something that's been bothering me.")}>
+                                I need to talk about something that's been bothering me.
+                            </div>
+                        </div>
+                    )}
+                        <div className="input-box">
+                            <input
+                            type="text"
+                            value={input}
+                            onChange={(e) => setInput(e.target.value)}
+                            onKeyPress={(e) => e.key === "Enter" && sendMessage()}
+                            placeholder="Tell me anything..."
+                            />
+                            <button onClick={sendMessage}>Send</button>
+                        </div>
                     </div>
-                    <div className="prompt" onClick={() => handlePromptClick("I need to talk about something that's been bothering me.")}>
-                        I need to talk about something that's been bothering me.
-                    </div>
+                )}
+                <div className="disclaimer">
+                    <p>
+                    Disclaimer: This chatbot is not a source for mental/physical health care, legal advice, or diagnosis. 
+                    The responses provided are for general informational purposes only and are not a substitute for 
+                    professional advice. If you need professional help, please consult a qualified expert.
+                    </p>
                 </div>
-            )}
-                <div className="input-box">
-                    <input
-                    type="text"
-                    value={input}
-                    onChange={(e) => setInput(e.target.value)}
-                    onKeyPress={(e) => e.key === "Enter" && sendMessage()}
-                    placeholder="Tell me anything..."
-                    />
-                    <button onClick={sendMessage}>Send</button>
-                </div>
             </div>
-        )}
-        <div className="disclaimer">
-            <p>
-            Disclaimer: This chatbot is not a source for mental/physical health care, legal advice, or diagnosis. 
-            The responses provided are for general informational purposes only and are not a substitute for 
-            professional advice. If you need professional help, please consult a qualified expert.
-            </p>
-        </div>
         </div>
     </div>
   );
