@@ -2,7 +2,7 @@ import React from 'react';
 import '../App.css';
 import '../Styles/dataViz.css';
 
-export const Resources = () => {(
+export const DataViz = () => {(
 
     <div id="whole-page">
         <div id="data-header">
