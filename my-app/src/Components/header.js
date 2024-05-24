@@ -18,23 +18,23 @@ export const Header = () => {
         // </div>
 
         <div className="navbar-container">
-        <Navbar expand="lg" className="bg-body-tertiary navbar-subcontainer"  sticky="top">
-            <Row className="navbar-row">
-                <Col sm = {2} md={2} lg={2}>
-                    <Navbar.Brand className="logo-text" href="/">safeHER</Navbar.Brand>
-                </Col>
-                <Col>
-                    <Nav className="d-flex justify-content-end">
-                        <Nav.Link className="navbar-text" href="/">Home</Nav.Link>
-                        <Nav.Link className="navbar-text" href="/team">About</Nav.Link>
-                        <Nav.Link className="navbar-text" href="/resources">Resources</Nav.Link>
-                        <Nav.Link className="navbar-text" href="/rant">Rant Bot</Nav.Link>
-                        <Nav.Link className="navbar-text" href="/forum">Forum</Nav.Link>
-                        <Nav.Link className="navbar-text" href="/art">Art</Nav.Link>
-                    </Nav>
-                </Col>
-            </Row>
-        </Navbar>
+            <Navbar expand="lg" className="bg-body-tertiary navbar-subcontainer"  sticky="top">
+                <Row className="navbar-row">
+                    <Col sm = {2} md={2} lg={2}>
+                        <Navbar.Brand className="logo-text" href="/">safeHER</Navbar.Brand>
+                    </Col>
+                    <Col>
+                        <Nav className="d-flex justify-content-end">
+                            <Nav.Link className="navbar-text" href="/">Home</Nav.Link>
+                            <Nav.Link className="navbar-text" href="/team">About</Nav.Link>
+                            <Nav.Link className="navbar-text" href="/resources">Resources</Nav.Link>
+                            <Nav.Link className="navbar-text" href="/rant">Rant Bot</Nav.Link>
+                            <Nav.Link className="navbar-text" href="/forum">Forum</Nav.Link>
+                            <Nav.Link className="navbar-text" href="/art">Art</Nav.Link>
+                        </Nav>
+                    </Col>
+                </Row>
+            </Navbar>
         </div> 
     )
 }
