@@ -1,4 +1,16 @@
-#main-page{
+img{
+    max-width: none;
+}
+#resources-header{
+    background-image:url('../Images/resources-header.png');
+    max-height:1728px;
+    min-height: 400px;
+    width:auto;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+#header-text{
     background-color: #FDF8F8;
 }
 
@@ -60,87 +72,111 @@
     font-family: "David Libre";
     color: #E8848E;
     text-align: center;
-    font-size: 4rem;
-    padding: 5%;
+ 
+}
+#header-main-text{
+    color:#E8848E;
+    font-size: 70px;
+    font-weight: bolder;
+ 
+}
+#header-small-text{
+    color:#C16265;
+    font-weight: bolder;
+
 }
 
-.resource-container {
-    color: #bfb1b5;
-    text-align: left;
-}
 
-.resource-container p {
-    padding-top: 2%;
-    padding-bottom: 2%;
-    font-family: "Didact Gothic", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 1.2rem;
-}
-
-.on-resources {
-    display: block;
+.header-box{
     background-color: #F9F4F1;
-    padding: 10%;
-    border-radius: 50px;
-    text-align: center;
+    border-radius: 20px 20px 20px 20px;
+    width: 440px;
+    max-height: 398px;
+    padding: 20px;
+    margin: 20px 10px 20px;
 }
-
-.on-resources h1 {
-    padding-bottom: 15px;
-    font-size: 3rem;
-}
-
-.resource-container {
+#header-box-container{
     display: flex;
+    justify-content: center;
+}
+.header-box-text{
+    color:#E8848E;
+    
+}
+.header-box-title{
+    color:#E8848E;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.header-box-title-2{
+    color:#E8848E;
+    font-size: 20px;
+    font-weight: bolder;
+
 }
 
-.on-resources .resource-card {
-    margin: 15px;
-    background-color: #F7B1B8;
-    padding: 5%;
-    vertical-align: middle;
-    color: #E8848E;
-    display: inline-block;
-    border-radius: 10px;
+.header-box-button{
+    background-color: #E8848E;
+    color:white;
+    font-weight: bolder;
+    border-radius: 4px;
+    font-size: 14px;
+    padding:8px 20px 8px 20px;
+    
 }
 
-.on-resources .resource-card:hover {
-    cursor: pointer;
-}
 
-.on-resources p {
-    color:#e3e3db;
-}
-
-.on-resources h2 {
-    color:#e5e1d8;
-}
-
-.on-resources ul {
-    color: black;
-    font-family: "Didact Gothic", sans-serif;
-    font-size: 1.2rem;
-}
-
-.off-resources {
-    margin-top: 50px;
-    padding: 10%;
-}
-
-.off-resources h1 {
-    padding-bottom: 15px;
-    font-size: 3rem;
-    color: #E8848E;
+.box-phone{
+    background-color: #E8848E;
+    border-radius: 4px;
+    color:white;
+    font-weight: bolder;
     text-align: center;
+    padding:8px;
+}
+.header-box-button-level-2{
+    display: flex;
+    justify-content: space-between;
+ 
+}
+#footer-note{
+    text-align: center;
+    color: #9A4E51;
+    opacity: 50%;
 }
 
-.off-resources .resource-card {
-    margin: 15px;
-    background-color: #BDC1F9;
-    border-radius: 10px;
-    padding: 5%;
-    vertical-align: middle;
-    display: inline-block;
-    color:#aca8bc
+
+
+
+.resource-title{
+    color:black;
+    font-size: 48px;
+    font-weight: bolder;
+    margin-left: 48px;
 }
+.image-card{
+    flex: 0 0 auto;
+   
+}
+
+
+
+.resource-images {
+     display: flex;
+     gap:12px;
+     scroll-snap-type: x mandatory;
+     overflow-x: scroll;
+     margin-left: 48px;
+     margin-bottom: 28px;
+     height:100%;
+     white-space: nowrap;
+}
+
+.resource-images a {
+    display: inline-block;
+}
+
+#resource-1{
+    margin-top: 110px;
+}
+
