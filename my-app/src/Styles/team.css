@@ -22,20 +22,29 @@
 
 .member-container {
     text-align: center;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding: 5%;
 }
 
 .child {
     display: inline-block;
-    width: 30%;
+    width: 40%;
     padding: 2%;
+    margin: 2%;
     border-radius: 20px;
     font-size: 18px;
-    text-align: center;
-    background-color: darkgrey;
+    text-align: left;
+    background-color: #DFD3CB;
+    border: 1px solid black;
+    margin: 1rem;
+    padding: 2rem 2rem;
 }
 
+.card-info-child {
+    display: inline-block;
+    border: 1px solid red;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+}
 
 
 /*

@@ -1,28 +1,31 @@
 import React from 'react';
 import '../../Styles/team.css';
+import PropTypes from 'prop-types';
 /* import Headshot from '../../Images/placeholder.jpg'; */
 
-export const Card = ({ name, pronouns, position, major, year }) => {
-    return (
-        <div className="member-container">
-            <div>
-
-                {/* <div className="childtop">
-                    <img src={Headshot} alt="placeholder"/>
-                </div> */}
-
-                <div className="child">
-                    <h2>{name}</h2>
-                    <p> {pronouns} </p>
-                    <p> {position} </p>
-                    <p>{year}, {major}</p>
-                </div>
-
-            </div>
+export const Card = ({ name, pronouns, position, major, year, imageUrl }) => (
+    <div className="child">
+        <div className="card-info-child">
+            <h2>{name}</h2>
+            <p>{pronouns}</p>
+            <p>{position}</p>
+            <p>{major}</p>
+            <p>{year}</p>
         </div>
 
-    )
-}
+        <div className="card-info-child">
+        <img src={imageUrl} alt={`${name}'s profile`} className="card-image" />
+        </div>
+    </div>
+);
+
+Card.propTypes = {
+    name: PropTypes.string.isRequired,
+    pronouns: PropTypes.string.isRequired,
+    position: PropTypes.string.isRequired,
+    major: PropTypes.string.isRequired,
+    year: PropTypes.string.isRequired,
+};
 
 /* export const Archita = () => {
     return (

@@ -7,18 +7,19 @@ import {Giang} from "./individual components/member";
 import {Grisha} from "./individual components/member"; */
 
 const boardMembers = [
-    { name: 'First Last', pronouns: 'pronouns/pronouns', position: 'Position', major: 'X major', year: 'X year' },
-    { name: 'Second Last', pronouns: 'pronouns/pronouns', position: 'Position', major: 'X major', year: 'X year' },
-    { name: 'Third Last', pronouns: 'pronouns/pronouns', position: 'Position', major: 'X major', year: 'X year' },
-    { name: 'Fourth Last', pronouns: 'pronouns/pronouns', position: 'Position', major: 'X major', year: 'X year' },
-    { name: 'Fifth Last', pronouns: 'pronouns/pronouns', position: 'Position', major: 'X major', year: 'X year' },
-    { name: 'Sixth Last', pronouns: 'pronouns/pronouns', position: 'Position', major: 'X major', year: 'X year' },
+    { name: 'First Last', pronouns: 'pronouns/pronouns', position: 'Position', major: 'X major', year: 'X year', imageUrl: '/path/to/image1.jpg' },
+    { name: 'Second Last', pronouns: 'pronouns/pronouns', position: 'Position', major: 'X major', year: 'X year', imageUrl: '/path/to/image1.jpg' },
+    { name: 'Third Last', pronouns: 'pronouns/pronouns', position: 'Position', major: 'X major', year: 'X year', imageUrl: '/path/to/image1.jpg' },
+    { name: 'Fourth Last', pronouns: 'pronouns/pronouns', position: 'Position', major: 'X major', year: 'X year', imageUrl: '/path/to/image1.jpg' },
+    { name: 'Fifth Last', pronouns: 'pronouns/pronouns', position: 'Position', major: 'X major', year: 'X year', imageUrl: '/path/to/image1.jpg' },
+    { name: 'Sixth Last', pronouns: 'pronouns/pronouns', position: 'Position', major: 'X major', year: 'X year', imageUrl: '/path/to/image1.jpg' },
     {
         name: 'Seventh Last',
         pronouns: 'pronouns/pronouns',
         position: 'Position',
         major: 'x major',
         year: 'x year',
+        imageUrl: '/path/to/image1.jpg'
     }
     // Add more board members as needed
 ]
