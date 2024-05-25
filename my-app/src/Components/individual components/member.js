@@ -1,28 +1,30 @@
 import React from 'react';
 import '../../Styles/team.css';
-import Headshot from '../../Images/placeholder.jpg';
+/* import Headshot from '../../Images/placeholder.jpg'; */
 
-export const Card = () => {
+export const Card = ({ name, pronouns, position, major, year }) => {
     return (
-        <div className="child">
+        <div className="member-container">
+            <div>
 
-            <div className="childtop">
-                <img src={Headshot} alt="placeholder"/>
+                {/* <div className="childtop">
+                    <img src={Headshot} alt="placeholder"/>
+                </div> */}
+
+                <div className="child">
+                    <h2>{name}</h2>
+                    <p> {pronouns} </p>
+                    <p> {position} </p>
+                    <p>{year}, {major}</p>
+                </div>
+
             </div>
-
-            <div className="childbottom">
-                <h2>First Last</h2>
-                <p>Position</p>
-                <p>Major, Year</p>
-                <p>LinkedIn</p>
-            </div>
-
         </div>
 
     )
 }
 
-export const Archita = () => {
+/* export const Archita = () => {
     return (
         <div className="child">
 
@@ -80,4 +82,4 @@ export const Grisha = () => {
         </div>
 
     )
-}
+} */

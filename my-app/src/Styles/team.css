@@ -1,22 +1,44 @@
-div {
-    font-family: "Didact Gothic", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 1.2rem;
-}
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 .about-us-team {
     background-color: #e5e1d8;
-    padding-top: 25%;
-    padding-bottom: 10%;
-    padding-left: 20%;
-    padding-right: 20%;
-    margin-top: -15%;
-    border-radius: 50px;
-    text-align: left;
-    color: black;
+    padding: 10%;
+    text-align: center;
+    color: #8B9A4C;
     box-shadow: 0 25px 20px -20px rgba(0, 0, 0, 0.4);
 }
+
+.about-us-team h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 54px;
+}
+
+.about-us-team h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+}
+
+/* individual card components */
+
+.member-container {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.child {
+    display: inline-block;
+    width: 30%;
+    padding: 2%;
+    border-radius: 20px;
+    font-size: 18px;
+    text-align: center;
+    background-color: darkgrey;
+}
+
+
+
+/*
 
 .about-us-team p {
     font-size: 1.3rem;
@@ -117,4 +139,4 @@ img {
     transition: all 100ms ease-in;
     transform: scale(1.1);
     background-color: #C16265;
-}
+} */
