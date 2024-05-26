@@ -7,11 +7,11 @@ import {Giang} from "./individual components/member";
 import {Grisha} from "./individual components/member"; */
 
 const boardMembers = [
-    { name: 'Archita Sarin', pronouns: 'she/her', position: 'Project Manager', major: 'Computer Science', year: '2027', imageUrl: '/path/to/image1.jpg' },
-    { name: 'Second Last', pronouns: 'pronouns/pronouns', position: 'Position', major: 'X major', year: 'X year', imageUrl: '/path/to/image1.jpg' },
-    { name: 'Third Last', pronouns: 'pronouns/pronouns', position: 'Position', major: 'X major', year: 'X year', imageUrl: '/path/to/image1.jpg' },
-    { name: 'Fourth Last', pronouns: 'pronouns/pronouns', position: 'Position', major: 'X major', year: 'X year', imageUrl: '/path/to/image1.jpg' },
-    { name: 'Fifth Last', pronouns: 'pronouns/pronouns', position: 'Position', major: 'X major', year: 'X year', imageUrl: '/path/to/image1.jpg' },
+    { name: 'Archita Sarin', pronouns: 'she/her', position: 'Project Manager', major: 'Computer Science', year: '2027', imageUrl: '/Images/headshots/archita.png' },
+    { name: 'Second Last', pronouns: 'pronouns/pronouns', position: 'Position', major: 'X major', year: 'X year', imageUrl: '../Images/headshots/archita.png' },
+    { name: 'Third Last', pronouns: 'pronouns/pronouns', position: 'Position', major: 'X major', year: 'X year', imageUrl: '../../Images/headshots/archita.png' },
+    { name: 'Fourth Last', pronouns: 'pronouns/pronouns', position: 'Position', major: 'X major', year: 'X year', imageUrl: '/Images/headshots/archita.png' },
+    { name: 'Fifth Last', pronouns: 'pronouns/pronouns', position: 'Position', major: 'X major', year: 'X year', imageUrl: '../../Images/archita.png' },
     { name: 'Sixth Last', pronouns: 'pronouns/pronouns', position: 'Position', major: 'X major', year: 'X year', imageUrl: '/path/to/image1.jpg' },
     {
         name: 'Seventh Last',

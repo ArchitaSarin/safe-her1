@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../Styles/team.css';
 import PropTypes from 'prop-types';
-/* import Headshot from '../../Images/placeholder.jpg'; */
+import Headshot from '../../Images/placeholder.jpg';
 
 export const Card = ({ name, pronouns, position, major, year, imageUrl }) => (
     <div className="child">
@@ -14,8 +14,8 @@ export const Card = ({ name, pronouns, position, major, year, imageUrl }) => (
         </div>
 
         <div className="card-info-child">
-        <img src={imageUrl} alt={`${name}'s profile`} className="card-image" />
-        </div>
+            <img src={Headshot}/>
+{/*             <img src={imageUrl} alt={`${name}'s profile`} className="card-image" />*/}        </div>
     </div>
 );
 
@@ -25,6 +25,7 @@ Card.propTypes = {
     position: PropTypes.string.isRequired,
     major: PropTypes.string.isRequired,
     year: PropTypes.string.isRequired,
+    imageUrl: PropTypes.string.isRequired,
 };
 
 /* export const Archita = () => {
