@@ -26,6 +26,9 @@ app.get('/', function(req, res, next) {
 const userRouter = require("./routes/user");
 app.use("/user", userRouter);
 
+const postRouter = require("./routes/post");
+app.use("/post", postRouter);
+
 app.listen(port, () => {
     console.log(`⚡[server]: Server is running at http://localhost:${port}`);
 });
