@@ -7,18 +7,18 @@ import { GoogleLogin } from '@react-oauth/google';
 // import axios from 'axios';
 
 
-export const TestLogin = () => {
+export const Login = () => {
     const [ user, setUser ] = useState([]);
-    const [ profile, setProfile ] = useState([]);
+    const [ profile, setProfile ] = useState(null);
 
     const login = useGoogleLogin({
         onSuccess: (codeResponse) => setUser(codeResponse),
         onError: (error) => console.log('Login Failed:', error)
     });
 
-    useEffect(
-        () => {
-            if (user) {
+    useEffect(() => {
+            console.log("hi")
+            if (profile != null) {
                 axios
                     .get(`https://www.googleapis.com/oauth2/v1/userinfo?access_token=${user.access_token}`, {
                         headers: {
@@ -32,8 +32,7 @@ export const TestLogin = () => {
                     })
                     .catch((err) => console.log(err));
             }
-        },
-        [ user ]
+        }, [ profile ]
     );
 
     // log out function to log the user out of google and set the profile array to null
@@ -43,7 +42,7 @@ export const TestLogin = () => {
     };
 
     return (
-        <div>
+        <div className='height'>
             <h2>React Google Login</h2>
             <br />
             <br />
