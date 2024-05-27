@@ -1,3 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+#data-header{
+    background-image: url('../Images/dataViz-header.png');
+    height: 100%;
+    width: 100%;
+    align-items: center;
+   justify-content: center;
+    display: flex;
+   flex-direction: column;
+padding-top:100px;
+
+
+}
+
 #data-header-title{
-    color:purple;
+    color:#8D94E2;
+    font-family: Poppins;
+    font-size: 52px;
+    font-weight: bold;
+    
+}
+#data-header-small-text{
+    color:#777dc3;
+    font-weight: bolder;
+    font-family: Poppins;
+}
+#data-warning{
+   margin-top: 100px;
+   margin-bottom: 100px;
+    background-color: white;
+    color:#8D94E2;
+    padding: 20px ;
+    width:550px;
+    border-radius: 12px;
+    text-align: left;
+    display: flex;
+}
+#data-header-bottom-message-container{
+
+    
+    align-items: center;
+    justify-content: center;
+
+    display: flex;
+    
+ 
+}
+#bottom-message-text{
+    font-family: Poppins;
+    font-size: 22px;
+    color:#878ED9;
+    width: 900px;
+    text-align: center;
+    margin-top: 44px;
 }

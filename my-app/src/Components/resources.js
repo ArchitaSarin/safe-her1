@@ -8,6 +8,7 @@ import Globe from '../Images/resource-globe.svg';
 import Location from '../Images/Location.svg';
 import Cow from '../Images/resource-cow.svg'
 import Article from '../Images/article.svg'
+import DataLink from '../Images/data-link.svg';
 
 
 import Card1 from '../Images/card1.png';
@@ -52,13 +53,15 @@ export const Resources = () => {
                         <p><b>Languages:</b> English, Spainish</p>
                     
                     </div>
-
+                    
                     <div class="header-box-button-container">
                         <p class="box-phone">(800) 656-4673</p>
-
+                      
                         <div class="header-box-button-level-2">
-                            <button class="header-box-button">Spainish Live Video Chat</button>
-                            <button class="header-box-button"> Spainish Live Video Chat</button>
+
+                        <a href="https://www.rainn.org/resources" target="_blank"><button class="header-box-button">Offical Website</button></a>
+                        <a href="https://hotlines.rainn.org/?messaging_service_key=d6cfe807-61dd-48b5-aa15-7a9e1cb94bc6&task_sid=WTe1f5eb1b0424cdd33ba1a6f525b86efa" target="_blank"><button class="header-box-button">Chat Now</button></a>
+                            
 
                         </div>
 
@@ -80,8 +83,10 @@ export const Resources = () => {
                         <p class="box-phone">(800) 799-7233</p>
 
                         <div class="header-box-button-level-2">
-                           
+                    
                             <a href="https://www.thehotline.org/?utm_source=youtube&utm_medium=organic&utm_campaign=domestic_violence" target="_blank"><button class="header-box-button">Offical Website</button></a>
+                            <a href="https://www.thehotline.org/get-help/" target="_blank"><button class="header-box-button">Get Help</button></a>
+
 
                         </div>
 
@@ -98,13 +103,13 @@ export const Resources = () => {
                     </div>
 
                     <div class="header-box-button-container" >
-                        <p class="box-phone">(800) 656-4673</p>
+                        <a href="https://www.womenslaw.org/" target="_blank" class="no-underline">  <p class="law-button">Check Out Their Website</p> 
+                        
+                        </a>
+                        <a href=" https://hotline.womenslaw.org/public" target="_blank"  class="no-underline">  <p class=" law-button">Email Hotline</p> 
+                        
+                        </a>
 
-                        <div class="header-box-button-level-2">
-                            <button class="header-box-button">Spainish Live Video Chat</button>
-                            <button class="header-box-button"> Spainish Live Video Chat</button>
-
-                        </div>
 
                     </div>
                 </div>
@@ -120,16 +125,17 @@ export const Resources = () => {
 
             <div id="resource-1" class="resouce-section">
                 <div >
-                    <h2 class="resource-title"> <img src={Location}/> Center for Resources</h2>
+                    <h2 class="resource-title"> <img src={Location}/> Your Local Support Network</h2>
+                    <p class="resource-section-sub-text">Access counseling, legal aid, health services, and more, all within your community. Empower yourself with these local resources designed to uplift and protect.</p>
 
                 </div>
           
                     <div class="resource-images">
-                        <a href="https://www.netflix.com/" target="_blank"><img src={Card7} class="image-card"/> </a>
-                        <a href="https://www.netflix.com/" target="_blank"><img src={Card8} class="image-card"/> </a>
-                        <a href="https://www.netflix.com/" target="_blank"><img src={Card9} class="image-card"/> </a>
-                        <a href="https://www.netflix.com/" target="_blank"><img src={Card10} class="image-card"/> </a>
-                        <a href="https://www.netflix.com/" target="_blank"><img src={Card11} class="image-card"/> </a>
+                        <a href="https://www.yolocounty.org/government/general-government-departments/health-human-services/children-youth/women-infants-children-wic" target="_blank"><img src={Card7} class="image-card"/> </a>
+                        <a href="https://empoweryolo.org/" target="_blank"><img src={Card8} class="image-card"/> </a>
+                        <a href="https://www.weaveinc.org/" target="_blank"><img src={Card9} class="image-card"/> </a>
+                        <a href="https://www.csus.edu/student-affairs/centers-programs/women-resource-center/" target="_blank"><img src={Card10} class="image-card"/> </a>
+                        <a href="http://www.my-sisters-house.org/getting-help/resources/" target="_blank"><img src={Card11} class="image-card"/> </a>
    
                     </div>
 
@@ -139,19 +145,21 @@ export const Resources = () => {
 
             <div id="resource-2" class="resouce-section">
                 <div>
-                    <h2 class="resource-title"> <img src={Cow}/> UC Davis Specific Resources</h2>
+                    <h2 class="resource-title"> <img src={Cow}/>Your Campus Support Network</h2>
+                    <p class="resource-section-sub-text">Access counseling, legal aid, health services, and more, all within your community. Empower yourself with these local resources designed to uplift and protect.</p>
+
 
                 </div>
 
                 <div class="resource-images">
                        
 
-                        <a href="https://www.netflix.com/" target="_blank"><img src={Card1} class="image-card"/> </a>
-                        <a href="https://www.netflix.com/" target="_blank"><img src={Card2} class="image-card"/> </a>
-                        <a href="https://www.netflix.com/" target="_blank"><img src={Card3} class="image-card"/> </a>
-                        <a href="https://www.netflix.com/" target="_blank"><img src={Card4} class="image-card"/> </a>
-                        <a href="https://www.netflix.com/" target="_blank"><img src={Card5} class="image-card"/> </a>
-                        <a href="https://www.netflix.com/" target="_blank"><img src={Card6} class="image-card"/> </a>
+                        <a href="https://wrrc.ucdavis.edu/" target="_blank"><img src={Card1} class="image-card"/> </a>
+                        <a href="https://www.daviswomeninbusiness.com/home" target="_blank"><img src={Card2} class="image-card"/> </a>
+                        <a href="https://www.instagram.com/girlgainsatucd/?hl=en" target="_blank"><img src={Card3} class="image-card"/> </a>
+                        <a href="https://www.hercampus.com/school/ucd/" target="_blank"><img src={Card4} class="image-card"/> </a>
+                        <a href="https://aggielife.ucdavis.edu/girlupatucd/leadership-team/" target="_blank"><img src={Card5} class="image-card"/> </a>
+                        <a href="https://wrrc.ucdavis.edu/programs/academic/stem-4-girls" target="_blank"><img src={Card6} class="image-card"/> </a>
                </div>
 
                 
@@ -161,7 +169,10 @@ export const Resources = () => {
             </div>
 
             <div id="article-section">
-                <h2 class="resource-title"> <img src={Article}/> Articles</h2>
+                <h2 class="resource-title"> <img src={Article}/> Articles on Women's Safety</h2>
+                <p class="resource-section-sub-text">Explore insightful articles focused on women's safety, written by experts and advocates.
+Stay informed and proactive with tips, stories, and advice tailored to your well-being.</p>
+
                 
                 
                 <div id="article-card-container">
@@ -185,7 +196,7 @@ export const Resources = () => {
                         <a href="https://www.nytimes.com/2019/03/26/travel/safety-tips-female-solo-travel.html#:~:text=Don't%20be%20scared%20to%20be%20alone%20%E2%80%94%20embrace%20it&text=This%20construct%20desperately%20needs%20to,so%20your%20mobile%20works%20internationally." target="_blank" class="article-link">
                         <div class="article-info">
 
-                            <h4 class="article-name">‘Don’t Succumb to the Fear’: Women Share Travel Safety Tips</h4>
+                            <h4 class="article-name">'Don't Succumb to the Fear': Women Share Travel Safety Tips</h4>
                             <p class="author">by The New York Times</p>
 
                         </div>
@@ -201,6 +212,9 @@ export const Resources = () => {
                         </a>
 
                     </div>
+
+
+
 
 
                 <div class="article-card">
@@ -279,8 +293,8 @@ export const Resources = () => {
     </div>
 
     <div id="data-link">
-            <h2 class="resource-title"> <img src={Article}/> Data Visualization & Graphs</h2>
-            <a href="dataViz.js" target="_blank" id="data-card"><img src={DataCard} class="image-card"/> </a>
+            <h2 class="resource-title"> <img src={DataLink}/> Data Visualization & Graphs</h2>
+            <a href='/dataViz' target="_blank" id="data-card"><img src={DataCard} class="image-card"/> </a>
 
 
 

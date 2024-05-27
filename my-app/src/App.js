@@ -8,7 +8,6 @@ import { Footer } from './Components/footer.js';
 import { Resources } from './Components/resources.js';
 import { RantBot } from './Components/rantBot';
 import { DataViz } from './Components/dataViz.js';
-import { RantBot } from './Components/rantBot';
 import { Art } from './Components/art.js';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
@@ -24,7 +23,7 @@ function App() {
           <Route path='/resources' element={<Resources/>}/>
           <Route path='/rant' element={<RantBot/>}/>
           <Route path='/art' element={<Art/>}/>
-          <Route path='/datavis' element={<DataViz/>}/>
+          <Route path='/dataViz' element={<DataViz/>}/>
 
         </Routes>
       </Router>

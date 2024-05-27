@@ -1,38 +1,84 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+@media (max-width:1156px) {
+    
+    .header-box{
+        background-color: #F9F4F1;
+        border-radius: 20px;
+        width:300px;
+        max-height: 400px;
+       
+        padding: 10px;
+        margin: 20px 4px 20px;
+    }
+    .header-box-button{
+        background-color: #E8848E;
+        color:white;
+        border-radius: 4px;
+        font-size: 14px;
+        max-width:110px;
+        height: 60px;
+    
+       
+        font-weight: bolder;
+        font-family: Poppins;
+       
+       
+        
+    }
+    .law-button{
+        text-decoration: none;
+        background-color: #E8848E;
+        border-radius: 4px;
+        color:white;
+        font-weight: bolder;
+        text-align: center;
+        padding:8px;
+        font-family: Poppins;
+        min-width: 170px;
 
+    }
+    
+}
 
 img{
     max-width: none;
 }
-
-
+.no-underline{
+    text-decoration: none;
+}
+.law-button{
+    text-decoration: none;
+    background-color: #E8848E;
+    border-radius: 4px;
+    color:white;
+    font-weight: bolder;
+    text-align: center;
+    padding:8px;
+    font-family: Poppins;
+}
+.law-button:hover{
+    opacity: 0.8;
+}
 #resources-header{
     background-image:url('../Images/resources-header.png');
-    max-height:1728px;
-    min-height: 400px;
-    width:auto;
+   width: 100%;
+  
     background-repeat: no-repeat;
     padding-top: 20px;
     padding-bottom: 15px;
 }
 #header-text{
     text-align: center;
-    background-color: #FDF8F8;
-}
-
-/* header stylings */
-
-#header{
-    background-image: linear-gradient(#F7B1B8, #FDF8F8);
-    height: 242px;
-    padding-top: 48px;
-    padding-bottom: 148px;
-    border-bottom: 10%;
-    margin-bottom: 100px;
+    margin-top: 22px;
+ 
    
 }
+
+
+
+
 .header-text{
     font-size: 68px;
     font-weight: bolder;
@@ -43,50 +89,13 @@ img{
     color: #C16265;
     font-weight:bolder;
 }
-#header-two-text{
-    text-align: left;
-    margin-top: -120px;
-    margin-left: 48px;
-    color: #0B032D
-}
-
-.card-header{
-    text-align: left;
-    border-bottom: 10px #393935;
-    margin-left: 48px;
 
 
-}
-.line{
-    border: none;
-    height: 8px;
-    background-color: #393935;
-    margin-left: 48px;
-    margin-right: 48px;
-    margin-bottom: 22px;
-    margin-top: 8px;
-}
-
-
-
-
-
-
-
-
-
-/* old stylings */
-.top-resource-heading {
-    font-family: "David Libre";
-    color: #E8848E;
-    text-align: center;
-  
-}
 
 
 #header-main-text{
     color:#E8848E;
-    font-size: 70px;
+    font-size: 52px;
     font-weight: bold;
     font-family: Poppins;
  
@@ -101,10 +110,10 @@ img{
 
 .header-box{
     background-color: #F9F4F1;
-    border-radius: 20px 20px 20px 20px;
-    width: 440px;
-    max-height: 398px;
-    padding: 20px;
+    border-radius: 20px;
+    width:420px;
+   
+    padding: 28px;
     margin: 20px 10px 20px;
 }
 #header-box-container{
@@ -134,12 +143,17 @@ img{
     color:white;
     border-radius: 4px;
     font-size: 14px;
-    padding:8px 20px 8px 20px;
+    width:170px;
+
+    padding:16px;
     font-weight: bolder;
+    font-family: Poppins;
    
     
 }
-
+.header-box-button-container{
+    margin-top: 50px;
+}
 
 .box-phone{
     background-color: #E8848E;
@@ -161,21 +175,22 @@ img{
     opacity: 50%;
 }
 
-
-
-
-.resource-title{
-    color:black;
-    font-size: 48px;
-    font-weight: bolder;
+.resource-section-sub-text{
     margin-left: 48px;
+    color:#BA676F;
+    font-family: Poppins;
+    max-width: 800px;
+
 }
 .image-card{
     flex: 0 0 auto;
+    width:400px;
+    height: auto;
    
 }
-
-
+.image-card:hover{
+    opacity: 0.6;
+}
 
 .resource-images {
      display: flex;
@@ -197,9 +212,11 @@ img{
 }
 .resource-title{
     margin-top:80px;
-    font-family: Outfit;
+    font-family: Poppins;
     font-weight: bolder;
-    font-size: 48px;
+    font-size: 32px;
+    color:#E8848E;
+    margin-left: 48px
 }
 
 /* article card styling*/
@@ -208,8 +225,8 @@ img{
 
 }
 .article-card{
-    background-color: #ECD8E9;
-    width: 400px;
+    background-color:white;
+    width: 440px;
    
     border-radius: 10px;
     margin-left: 18px;
@@ -220,27 +237,40 @@ img{
     font-family: Poppins;
     font-size: 24px;
     font-weight:500;
-    padding: 22px;
+    padding: 42px;
+    background-color: #F7B1B8;
+    color:white;
 
 }
 .article-info{
-    background-color: #f0e5ef;
-    padding: 20px;
+    background-color: #f8e6e7;
+    padding:10px;
     margin-top: 5px;
+    border-radius: 10px;
+}
+.article-info:hover{
+    background-color: #F7B1B8;
+    opacity: 60%;
+    color:white;
 }
 .article-name{
     font-family: Poppins;
     font-size: 20px;
     font-weight: 400;
+    color:#C16265;
+}
+
+.author{
+    color:#C16265;
+    opacity: 50%;
+
 }
 .article-link{
     text-decoration: none;
-    color:black;
+
 
 }
-.article-link:hover{
-    color:grey;
-}
+
 .article-bottom{
     border-radius: 0px 0px 10px 10px;
 }
@@ -248,6 +278,8 @@ img{
     display: flex;
     justify-content: center;
 }
+
+
 
 #data-card{
     margin-left:90px;
