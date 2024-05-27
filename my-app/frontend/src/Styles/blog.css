@@ -1,0 +1,43 @@
+.header-blog {
+    background: linear-gradient(#FA8F9A, #FDF8F8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10% 30%;
+    height: 400px;
+}
+
+.blog-submit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.blog-submit h1 {
+    color: #EC8590;
+    font-weight: 600;
+    font-size: 52px;
+}
+
+.blog-submit p {
+    color: #E8848E;
+    font-weight: 800;
+    font-size: 16px;
+}
+
+.blog-submit button {
+    width: 100%;
+    border-radius: 4px;
+    color: white;
+    font-weight: 800;
+    font-size: 16px;
+    background-color: #FA8F9A;
+}
+
+.blog-submit button:hover {
+    background-color: #E8848E;
+}
