@@ -11,14 +11,14 @@ router.route("/add").post((req, res) => {
     const name = req.body.name;
     const user_id = req.body.user_id;
     // const picture = req.picture;
-    // const verified_email = req.body.verified_email;
+    const verified_email = req.body.verified_email;
 
     const newItem = new User({
         email: email,
         name: name,
         user_id: user_id,
         // picture: picture,
-        // verified_email
+        verified_email
     });
 
     newItem
