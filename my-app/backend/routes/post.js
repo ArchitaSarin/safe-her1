@@ -60,13 +60,28 @@ router.post('/delete/:id/:email', fetchUserByEmail, async (req, res) => {
 
 router.get('/', async (req, res) => {
     try {
-        const posts = await Post.find().sort({ timestamp: -1 });
-        res.json(posts);
+        const page = parseInt(req.query.page) || 1;
+        const skip = (page - 1) * 9;
+        const posts = await Post.find()
+                                .sort({ timestamp: -1 })
+                                .skip(skip)
+                                .limit(9);
+
+        const totalCount = await Post.countDocuments();
+        const totalPages = Math.ceil(totalCount / 9);
+
+        // metadata
+        const response = {
+            posts: posts,
+            totalPages: totalPages,
+            currentPage: page
+        };
+
+        res.json(response);
     } catch (error) {
         res.status(500).json({ status: 'error', message: 'Internal Server Error' });
     }
 });
-
 router.get('/user/:email', fetchUserByEmail, async (req, res) => {
     try {
         const user = req.user;
