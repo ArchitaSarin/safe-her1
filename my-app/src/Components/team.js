@@ -82,6 +82,68 @@ export const Team = () => {
                     </div>
                 </div>
 
+            {/* Designers section  */}
+                <h1>Designers</h1>
+
+                <div className="child">
+                    <div className="card-info-child">
+                        <h2>Sania Heydarfadai</h2>
+                        <p>she/her</p>
+                        <p>project manager</p>
+                        <p>computer science</p>
+                        <p>2027</p>
+                    </div>
+
+                    <div className="card-info-child">
+                        <img src={ArchitaHeadshot} alt="girlhood abstract art" className="card-image"/>
+                    </div>
+                </div>
+
+                <div className="child">
+                    <div className="card-info-child">
+                        <h2>Giang Le </h2>
+                        <p>she/her</p>
+                        <p>project manager</p>
+                        <p>computer science</p>
+                        <p>2027</p>
+                    </div>
+
+                    <div className="card-info-child">
+                        <img src={IpsitaHeadshot} alt="girlhood abstract art" className="card-image"/>
+                    </div>
+                </div>
+
+            {/* researchers section  */}
+                <h1>Designers</h1>
+
+                <div className="child">
+                    <div className="card-info-child">
+                        <h2>Archita Sarin</h2>
+                        <p>she/her</p>
+                        <p>project manager</p>
+                        <p>computer science</p>
+                        <p>2027</p>
+                    </div>
+
+                    <div className="card-info-child">
+                        <img src={ArchitaHeadshot} alt="girlhood abstract art" className="card-image"/>
+                    </div>
+                </div>
+
+                <div className="child">
+                    <div className="card-info-child">
+                        <h2>Ipsita ---</h2>
+                        <p>she/her</p>
+                        <p>project manager</p>
+                        <p>computer science</p>
+                        <p>2027</p>
+                    </div>
+
+                    <div className="card-info-child">
+                        <img src={IpsitaHeadshot} alt="girlhood abstract art" className="card-image"/>
+                    </div>
+                </div>
+
 
             </div>  
 

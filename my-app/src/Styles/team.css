@@ -52,8 +52,12 @@
 
 .team-category {
     padding: 3%;
-    align-items: center;
     text-align: center;
+}
+
+.team-category h1{
+    text-align: left;
+    font-size: 2rem;
 }
 
 .child {
@@ -79,7 +83,6 @@
 
 .card-info-child {
     display: inline-block;
-    border: 1px solid red;
     padding: 1rem 1rem;
     vertical-align: middle;
     width: 50%;
