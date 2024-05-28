@@ -55,6 +55,7 @@ export const RantBot = () => {
     <div>
         <div className="header-bot">
             <h1>Rant To Us</h1>
+            <p> Need to rant? Use our chat bot to do so. </p>
         </div>
         <div className="chat-container">
         <div className="chat-box">
