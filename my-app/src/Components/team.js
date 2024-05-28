@@ -24,7 +24,30 @@ export const Team = () => {
             </div>
 
             <div className="team-intro">
-                <h1> Project Managers </h1> 
+                <div className="team-intro-divs">
+                    <h4>Who We Are</h4>
+                    <p>
+                        We are an all-women team of 12 with specialties in various fields, coming together to create a community for women.
+                    </p>
+                </div>
+
+                <div class="vl"></div>
+
+                <div className="team-intro-divs">
+                    <h4>Our Mission</h4>
+                    <p>
+                        Our goal is to cultivate a secure, empowering, and inclusive digital sanctuary where women can freely express themselves, share their stories, showcase their creativity, and access vital resources.
+                    </p>
+                </div>
+
+                <div class="vl"></div>
+
+                <div className="team-intro-divs">
+                    <h4>Our Vision</h4>
+                    <p>
+                        Together, we envision a world where women thrive, unrestricted by fear or discrimination. Join us as we strive to make this vision a reality, embracing diversity, and fostering solidarity among women everywhere.
+                    </p>
+                </div>
             </div>
 
             <div className="team-category">

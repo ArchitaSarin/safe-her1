@@ -22,7 +22,25 @@
 
 .team-intro {
     background-color: #E9EECD;
-    padding: 3%;
+    padding: 5%;
+}
+
+.vl {
+    border-left: 4px solid #8B9A4C;
+    height: 250px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.team-intro-divs {
+    margin: 3%;
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.team-intro-divs h4 {
+    color: #8B9A4C;
 }
 
 /* individual card components */
