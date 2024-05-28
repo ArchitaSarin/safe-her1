@@ -294,6 +294,8 @@ Stay informed and proactive with tips, stories, and advice tailored to your well
 
     <div id="data-link">
             <h2 class="resource-title"> <img src={DataLink}/> Data Visualization & Graphs</h2>
+            <p class="resource-section-sub-text">Explore data on safety statistics, resource utilization, and more, all designed to inform and empower you.</p>
+
             <a href='/dataViz' target="_blank" id="data-card"><img src={DataCard} class="image-card"/> </a>
 
 

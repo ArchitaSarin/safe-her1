@@ -1,22 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+#whole-page{
+    background-color: #F9F4F1;
+}
+/* header stylings*/
+
 #data-header{
-    background-image: url('../Images/dataViz-header.png');
+    background-image: url('../Images/dataViz-header-2.png');
+    
     height: 100%;
     width: 100%;
     align-items: center;
    justify-content: center;
     display: flex;
    flex-direction: column;
-padding-top:100px;
-
 
 }
-
 #data-header-title{
     color:#8D94E2;
     font-family: Poppins;
     font-size: 52px;
     font-weight: bold;
+    margin-top: 40px;
     
 }
 #data-header-small-text{
@@ -25,8 +30,7 @@ padding-top:100px;
     font-family: Poppins;
 }
 #data-warning{
-   margin-top: 100px;
-   margin-bottom: 100px;
+ 
     background-color: white;
     color:#8D94E2;
     padding: 20px ;
@@ -34,6 +38,8 @@ padding-top:100px;
     border-radius: 12px;
     text-align: left;
     display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 #data-header-bottom-message-container{
 
@@ -47,9 +53,198 @@ padding-top:100px;
 }
 #bottom-message-text{
     font-family: Poppins;
-    font-size: 22px;
+    font-size: 20px;
     color:#878ED9;
     width: 900px;
     text-align: center;
-    margin-top: 44px;
+    margin-top: 20px;
+}
+
+/* lead stat sub heading stylings*/
+#lead-stats{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 68px;
+}
+.lead-stat-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lead-stat-title{
+    color:#8D94E2;
+    font-family: Poppins;
+    font-size: 52px;
+
+}
+.lead-stat-text{
+    font-family: Poppins;
+    color:#8D94E2;
+    font-size: 24px;
+    margin:20px;
+    text-align: center;
+
+}
+#lead-stat-one-text{
+    width: 400px;
+
+}
+
+/* pie chart sub heading stylings*/
+#pie-chart-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#pie-chart{
+    height:300px;
+}
+#pie-chart-text-14{
+    margin-left: -50px;
+}
+#pie-chart-sub-text{
+    margin-top: -50px;
+    max-width: 400px;
+
+}
+#lead-stats-3{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+    
+}
+
+/* graph section title styings*/
+.graph-title{
+    font-family: Poppins;
+    font-size: 26px;
+    margin-bottom: -5px;
+}
+.graph-section-header{
+    display: flex;
+    flex-direction: row;
+    margin-left: 48px;
+    margin-bottom:  20px;
+   
+}
+.graph-title-container{
+    margin-left: 5px;
+
+}
+
+/* graph section 1*/
+#graph-section-1{
+    margin-top: 88px;
+ 
+}
+.graph-description{
+    width:100%;
+    font-size: 16px;
+    font-family: Poppins;
+    margin-top: 12px;
+    margin-left: 12px;
+
+}
+#graph-section-1-graph-container{
+    display: flex;
+    margin-left: 37px;
+   
+   
+}
+.graph-section-1-image{
+    max-width: 650px;
+}
+
+/* section 2 stylings */
+#graph-section-2-content{
+    display: flex;
+    justify-content: flex-start;
+    margin-left:48px;
+}
+#graph-2-desc{
+    max-width: 300px;
+    margin-left: 12px;
+}
+#graph3{
+    max-width: 950px;
+}
+#graph-section-2{
+    margin-top: 68px;
+}
+
+/*graph section 3 */
+#graph-section-3-content{
+    display: flex;
+    margin-left: 48px;
+}
+#graph-4{
+    max-width: 950px;
+}
+#graph-section-3{
+    margin-top: 88px;
+}
+#graph-section-3-footer-note{
+    font-family: Poppins;
+    color: #9A4E51;
+    opacity: 50%;
+    margin-left: 58px;
+}
+
+/* section 4 */
+#graph-section-4{
+    display: flex;
+    justify-content: center;
+}
+#section-4-graph{
+    max-width: 650px;
+}
+
+
+#graph-4-sub-desc{
+    max-width:550px ;
+}
+.section-4-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.section-4-rectangle{
+    margin-right: 8px;
+}
+
+/* resource link section*/
+
+#resource-link-title{
+    font-family: Poppins;
+    color: #878ED9;
+    font-size: 28px;
+}
+#resource-link-section{
+    background-color: #DCD6ED;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:30px;
+    width:900px;
+    text-align: center;
+    border-radius: 10px;
+}
+#resource-link-container{
+    margin-top: 60px;
+   
+    display: flex;
+    justify-content: center;
+}
+#resource-link-button{
+    background-color: #9CA3F0;
+    border-radius: 10px;
+    padding:12px;
+    max-width:300px;
+    color:white;
+    font-family: Poppins;
+    font-weight: bold;
+}
+#resource-link-button:hover{
+    opacity: 70%;
 }
