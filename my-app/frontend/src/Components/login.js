@@ -8,7 +8,7 @@ import { GoogleLogin } from '@react-oauth/google';
 
 
 export const Login = () => {
-    const [ user, setUser ] = useState([]);
+    const [ user, setUser ] = useState(null);
     const [ profile, setProfile ] = useState(null);
 
     const login = useGoogleLogin({
@@ -17,8 +17,7 @@ export const Login = () => {
     });
 
     useEffect(() => {
-            console.log("hi")
-            if (profile != null) {
+            if (user) {
                 axios
                     .get(`https://www.googleapis.com/oauth2/v1/userinfo?access_token=${user.access_token}`, {
                         headers: {
@@ -31,8 +30,10 @@ export const Login = () => {
                         setProfile(res.data);
                     })
                     .catch((err) => console.log(err));
+
+                // TODO: post user object if new login
             }
-        }, [ profile ]
+        }, [ user ]
     );
 
     // log out function to log the user out of google and set the profile array to null
@@ -42,23 +43,25 @@ export const Login = () => {
     };
 
     return (
-        <div className='height'>
-            <h2>React Google Login</h2>
-            <br />
-            <br />
-            {profile ? (
-                <div>
-                    <img src={profile.picture} alt="user image" />
-                    <h3>User Logged in</h3>
-                    <p>Name {profile.name}</p>
-                    <p>Email Address: {profile.email}</p>
-                    <br />
-                    <br />
-                    <button onClick={logOut}>Log out</button>
-                </div>
-            ) : (
-                <button onClick={() => login()}>Sign in with Google 🚀 </button>
-            )}
+        <div className='parent'>
+            <div className='height'>
+                <h3>Click here to login with Google!</h3>
+                <br />
+                <br />
+                {profile ? (
+                    <div>
+                        {/* <img src={profile.picture} alt="user image" /> */}
+                        {/* <h3>User Logged in</h3> */}
+                        <p>Name: {profile.name}</p>
+                        <p>Email Address: {profile.email}</p>
+                        <br />
+                        <br />
+                        <button onClick={logOut}>Log out</button>
+                    </div>
+                ) : (
+                    <button className = 'rect-button' onClick={() => login()}>Log In</button>
+                )}
+            </div>
         </div>
     );
    

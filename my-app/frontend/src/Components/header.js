@@ -31,6 +31,7 @@ export const Header = () => {
                         <Nav.Link className="navbar-text" href="/rant">Rant Bot</Nav.Link>
                         <Nav.Link className="navbar-text" href="/forum">Forum</Nav.Link>
                         <Nav.Link className="navbar-text" href="/art">Art</Nav.Link>
+                        <Nav.Link className="navbar-text" href="/login">Login</Nav.Link>
                     </Nav>
                 </Col>
             </Row>
