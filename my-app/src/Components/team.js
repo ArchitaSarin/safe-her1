@@ -2,10 +2,8 @@ import React from 'react';
 import '../App.css';
 import '../Styles/team.css';
 import {Card} from "./individual components/member";
-/* import {Archita} from "../Images/headshots/archita.png" */
-/* import {Archita} from "./individual components/member";
-import {Giang} from "./individual components/member";
-import {Grisha} from "./individual components/member"; */
+import ArchitaHeadshot from "../Images/headshots/archita.png"
+import IpsitaHeadshot from "../Images/headshots/ipsita.jpeg"
 
 const boardMembers = [
     { name: 'Archita Sarin', pronouns: 'she/her', position: 'Project Manager', major: 'Computer Science', year: '2027', imageUrl: '/Images/headshots/archita.png' },
@@ -50,8 +48,11 @@ export const Team = () => {
                 </div>
             </div>
 
+            
             <div className="team-category">
                 <h1>Project Managers</h1>
+
+                {/* archita profile */}
                 <div className="child">
                     <div className="card-info-child">
                         <h2>Archita Sarin</h2>
@@ -62,24 +63,30 @@ export const Team = () => {
                     </div>
 
                     <div className="card-info-child">
-                        {/* <img src={Archita} alt={`Archita's profile`} className="card-image"/> */}
+                        <img src={ArchitaHeadshot} alt="girlhood abstract art" className="card-image"/>
                     </div>
-
                 </div>
 
-                    {/* <div className="member-container">
-                        {boardMembers.map((member, index) => (
-                            <Card
-                                key={index}
-                                name={member.name}
-                                pronouns={member.pronouns}
-                                position={member.position}
-                                major={member.major}
-                                year={member.year}
-                            />
-                        ))}
-                    </div> */}
-            </div>        
+                {/* ipsitas profile */}
+                <div className="child">
+                    <div className="card-info-child">
+                        <h2>Ipsita ---</h2>
+                        <p>she/her</p>
+                        <p>project manager</p>
+                        <p>computer science</p>
+                        <p>2027</p>
+                    </div>
+
+                    <div className="card-info-child">
+                        <img src={IpsitaHeadshot} alt="girlhood abstract art" className="card-image"/>
+                    </div>
+                </div>
+
+
+            </div>  
+
+
+
         </div>
     )
 }
