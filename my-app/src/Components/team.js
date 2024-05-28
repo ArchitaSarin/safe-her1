@@ -2,7 +2,7 @@ import React from 'react';
 import '../App.css';
 import '../Styles/team.css';
 import {Card} from "./individual components/member";
-import {Archita} from "../Images/headshots/archita.png"
+/* import {Archita} from "../Images/headshots/archita.png" */
 /* import {Archita} from "./individual components/member";
 import {Giang} from "./individual components/member";
 import {Grisha} from "./individual components/member"; */
@@ -39,7 +39,7 @@ export const Team = () => {
                     </div>
 
                     <div className="card-info-child">
-                        <img src={Archita} alt={`Archita's profile`} className="card-image"/>
+                        {/* <img src={Archita} alt={`Archita's profile`} className="card-image"/> */}
                     </div>
 
                 </div>
