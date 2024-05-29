@@ -226,6 +226,11 @@ form {
     width: 50%;
 }
 
+.gridItem2 {
+    max-height: 600px;
+    overflow-y: scroll;
+}
+
 @media(max-width: 782px) {
     header {
         flex-direction: column;
@@ -262,5 +267,7 @@ form {
     }
     .gridItem2 {
         width: 70%;
+        max-height: fit-content;
+        overflow-y: visible;
     }
 }
