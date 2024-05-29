@@ -1,7 +1,78 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-#whole-page{
+@media (max-width:1200px){
+    #graph-section-1-graph-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section-1-graph-desc{
+        max-width: 600px;
+    }
+   
+    /* section 2 */
+    #graph-section-2-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #graph-2-desc{
+        max-width: 900px;
+    }
+
+    /* section 3*/
+    #graph-section-3-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #graph3{
+        max-width:650px;
+    }
+
+    /* section 4*/
+    #graph-section-4{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 68px;
+    }
+    #graph-section-3-footer-note{
+        display: flex;
+        justify-content: center;
+    }
+    #graph-4{
+        max-width:650px;
+       
+    
+    }
+  
+  
+
+  
+   
+
+
+
+}
+@media(max-width:1100px){
+    #lead-stats{
+        display: flex;
+        flex-direction: column;
+    }
+    .data-line{
+        max-height: 100px;
+    }
+   
+  
+}
+
+
+
+/* sets the background color*/
+#dataViz-whole-page{
     background-color: #F9F4F1;
+    padding-bottom: 80px;
 }
 /* header stylings*/
 
@@ -139,7 +210,7 @@
  
 }
 .graph-description{
-    width:100%;
+    
     font-size: 16px;
     font-family: Poppins;
     margin-top: 12px;
@@ -153,7 +224,7 @@
    
 }
 .graph-section-1-image{
-    max-width: 650px;
+    width:600px;
 }
 
 /* section 2 stylings */
@@ -163,11 +234,12 @@
     margin-left:48px;
 }
 #graph-2-desc{
-    max-width: 300px;
+
     margin-left: 12px;
 }
 #graph3{
-    max-width: 950px;
+    width: 900px;
+
 }
 #graph-section-2{
     margin-top: 68px;
@@ -179,7 +251,11 @@
     margin-left: 48px;
 }
 #graph-4{
-    max-width: 950px;
+    
+        width: 900px;
+        height: auto;
+    
+
 }
 #graph-section-3{
     margin-top: 88px;
@@ -191,16 +267,17 @@
     margin-left: 58px;
 }
 
+
 /* section 4 */
 #graph-section-4{
     display: flex;
     justify-content: center;
+    margin-top: 48px;
+    margin-left: 48px;
 }
-#section-4-graph{
-    max-width: 650px;
+.section-4-graph{
+    width:600px;
 }
-
-
 #graph-4-sub-desc{
     max-width:550px ;
 }
@@ -212,6 +289,18 @@
 .section-4-rectangle{
     margin-right: 8px;
 }
+#graph-4-2{
+    margin-left: 20px;
+}
+.graph-section-4-content{
+    margin-left: -9px;
+    margin-top: 9px;
+}
+#graph-section-4{
+    margin-top:68px;
+}
+
+
 
 /* resource link section*/
 

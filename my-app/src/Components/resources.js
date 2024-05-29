@@ -31,7 +31,7 @@ import DataCard from '../Images/dataCard.png';
 
 export const Resources = () => {
     return (
-<div>
+<div id="resource-whole-page">
 
 
         <div id="resources-header">
@@ -155,7 +155,7 @@ export const Resources = () => {
                        
 
                         <a href="https://wrrc.ucdavis.edu/" target="_blank"><img src={Card1} class="image-card"/> </a>
-                        <a href="https://www.daviswomeninbusiness.com/home" target="_blank"><img src={Card2} class="image-card"/> </a>
+                        <a href="https://www.daviswomeninbusiness.com/" target="_blank"><img src={Card2} class="image-card"/> </a>
                         <a href="https://www.instagram.com/girlgainsatucd/?hl=en" target="_blank"><img src={Card3} class="image-card"/> </a>
                         <a href="https://www.hercampus.com/school/ucd/" target="_blank"><img src={Card4} class="image-card"/> </a>
                         <a href="https://aggielife.ucdavis.edu/girlupatucd/leadership-team/" target="_blank"><img src={Card5} class="image-card"/> </a>
@@ -293,7 +293,7 @@ Stay informed and proactive with tips, stories, and advice tailored to your well
     </div>
 
     <div id="data-link">
-            <h2 class="resource-title"> <img src={DataLink}/> Data Visualization & Graphs</h2>
+            <h2 class="resource-title"> <img src={DataLink}/> Data Visualization Hub</h2>
             <p class="resource-section-sub-text">Explore data on safety statistics, resource utilization, and more, all designed to inform and empower you.</p>
 
             <a href='/dataViz' target="_blank" id="data-card"><img src={DataCard} class="image-card"/> </a>
