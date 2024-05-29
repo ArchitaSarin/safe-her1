@@ -9,8 +9,16 @@ export const AuthProvider = ({ children }) => {
   });
 
   const login = (userData) => {
-    setUser(userData);
-    localStorage.setItem('user', JSON.stringify(userData));
+    const userToStore = {
+      name: userData.name,
+      email: userData.email,
+      access_token: userData.access_token,
+      expires_in: userData.expires_in,
+      picture: userData.picture, // Store the picture
+    };
+
+    setUser(userToStore);
+    localStorage.setItem('user', JSON.stringify(userToStore));
   };
 
   const logout = () => {

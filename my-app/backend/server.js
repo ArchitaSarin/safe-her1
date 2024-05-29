@@ -19,10 +19,6 @@ const bodyParser = require("body-parser");
 app.use(bodyParser.json());
 app.use(cors());
 
-app.get('/', function(req, res, next) {
-    res.send("Hello world");
-});
-
 const userRouter = require("./routes/user");
 app.use("/user", userRouter);
 
@@ -33,7 +29,7 @@ app.listen(port, () => {
     console.log(`⚡[server]: Server is running at http://localhost:${port}`);
 });
 
-const uri = 'mongodb+srv://dev_user:Pa55word!!@cluster0.gfumdny.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0?authSource=admin'; // load mongodb key
+const uri = process.env.ATLAS_URI;
 
 mongoose.set("strictQuery", false);
 
@@ -43,3 +39,5 @@ const connection = mongoose.connection;
 connection.once("open", () => {
     console.log("⚡[server]: MongoDB database connection established successfully.");
 });
+
+module.exports = connection;

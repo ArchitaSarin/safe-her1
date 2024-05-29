@@ -25,11 +25,19 @@ export const Blog = () => {
     };
 
     fetchPosts();
-  }, [currentPage]); // Fetch posts whenever the currentPage changes
+  }, [currentPage]);
 
   // Function to handle page change
   const handlePageChange = (page) => {
     setCurrentPage(page);
+  };
+
+  // Colors for rotation
+  const colors = ['#C9DC7C','#F7B1B8','#CED2FF'];
+
+  // Function to get color based on the index
+  const getColor = (index) => {
+    return colors[index % colors.length];
   };
 
   return (
@@ -53,8 +61,8 @@ export const Blog = () => {
           <h2> Most Recent </h2>
         </div>
         <div className="grid-layout">
-          {posts.map((post) => (
-            <div key={post._id} className="post-blog" style={{ boxShadow: `0 0px 15px ${randomColor()}` }}>
+          {posts.map((post, index) => (
+            <div key={post._id} className="post-blog" style={{ boxShadow: `0 0px 15px ${getColor(index)}` }}>
               <h3>{post.title}</h3>
               <p className="spanPosted">Posted by: {post.name} on {post.timestamp}</p>
               <p>{post.content}</p>
@@ -65,10 +73,4 @@ export const Blog = () => {
       <Pagination currentPage={currentPage} totalPages={totalPages} handlePageChange={handlePageChange} />
     </div>
   );
-};
-
-const randomColor = () => {
-  const shadowColors = ['#CED2FF', '#F7B1B8', '#C9DC7C'];
-  const randomIndex = Math.floor(Math.random() * shadowColors.length);
-  return shadowColors[randomIndex];
 };

@@ -10,7 +10,7 @@ import { RantBot } from './Components/rantBot';
 import { Art } from './Components/art.js';
 import { Blog } from './Components/blog.js';
 import { CreatePost } from './Components/createpost.js';
-import { TestLogin } from './Components/testLogin.js';
+import { Login } from './Components/login.js';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Navigate } from 'react-router-dom';
 import { Layout } from './Layout.js';
@@ -35,7 +35,7 @@ function App() {
                 </ProtectedRoute>
               }/>
               <Route path='/blog' element={<Blog />} />
-              <Route path='/test-login' element={<TestLogin />} />
+              <Route path='/login' element={<Login />} />
             </Routes>
           </Layout>
         </Router>
