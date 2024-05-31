@@ -103,8 +103,8 @@ export const DataViz = () => {
                 <div id="graph-section-1-graph-container">
 
                     <div class="graph-section-1-graph">
-                        <img src={Graph1} class="graph-section-1-image"/>
-                        <p class="graph-description section-1-graph-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                        <img src={Graph1} class="graph-section-1-image" id="graph1"/>
+                        <p class="graph-description section-1-graph-desc"> This bar chart visualizes the Sexual Violence victimization by any perpetrator among women, by race and ethnicity. And it reveals that other sexual violence is more prevalent than rape across all groups, with “Two or More races” experiencing the highest rates in both types. Compared to Asian/Pacific Islanders report the lowest prevalence, highlighting significant disparities in sexual violence among different ethnicities.</p>
                     </div>
 
                     <div class="graph-section-1-graph">
