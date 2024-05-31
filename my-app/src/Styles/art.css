@@ -19,9 +19,7 @@
 .art-intro {
   background: linear-gradient(#CED2FF, #FDF8F8);
   padding-top: 10%;
-  padding-bottom: 5%;
   margin-top: -5%;
-  border-radius: 50px;
   text-align: center;
 }
 
@@ -29,7 +27,7 @@
   font-size: 72px;
 }
 
-.art-btn {
+.art-btn, .delete-btn {
   appearance: none;
   font-family: "Didact Gothic", sans-serif;
   background-color: #CED2FF;
@@ -60,6 +58,7 @@
     -webkit-column-gap: 15px;
     -moz-column-gap: 15px;
     column-gap: 10px;
+    background-color: #FDF8F8;
     }
     
     .grid-item {
@@ -142,3 +141,45 @@
     cursor: pointer;
     margin-left: 5px;
   }
+
+  .dropzone-container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 0 20%;
+  }
+
+  .dropzone {
+    border: 2px dashed #8C93E2;
+    border-radius: 10px;
+    padding: 2%;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.dropzone p {
+    margin: 0;
+}
+
+.previews-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.preview-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.preview-image {
+  border-radius: 20px;
+  width: 150px;
+  height: 150px;
+}
