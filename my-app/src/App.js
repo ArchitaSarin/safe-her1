@@ -5,8 +5,8 @@ import { Team } from './Components/team';
 import { Forum } from './Components/forum.js';
 import { About } from './Components/about.js';
 import { Resources } from './Components/resources.js';
-import { DataViz } from './Components/dataViz.js';
 import { RantBot } from './Components/rantBot';
+import { DataViz } from './Components/dataViz.js';
 import { Art } from './Components/art.js';
 import { Blog } from './Components/blog.js';
 import { CreatePost } from './Components/createpost.js';
@@ -29,6 +29,7 @@ function App() {
               <Route path='/resources' element={<Resources />} />
               <Route path='/rant' element={<RantBot />} />
               <Route path='/art' element={<Art />} />
+              <Route path='/dataViz' element={<DataViz/>}/>
               <Route path='/createpost' element={
                 <ProtectedRoute>
                   <CreatePostWrapper />

@@ -26,6 +26,7 @@ export const Header = () => {
                         <Nav.Link className="navbar-text" href="/rant">Rant Bot</Nav.Link>
                         <Nav.Link className="navbar-text" href="/blog">Blog</Nav.Link>
                         <Nav.Link className="navbar-text" href="/art">Art</Nav.Link>
+                        <Nav.Link className="navbar-text" href="/dataViz">Data Visualization</Nav.Link>
                         {user ? (
                             <Nav.Link className="navbar-text" onClick={handleLogout}>Logout</Nav.Link>
                         ) : (
