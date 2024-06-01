@@ -13,6 +13,12 @@
     font-weight: 600;
 }
 
+.header-bot p {
+    text-align: center;
+    color: #8B9A4C;
+    font-weight: 600;
+}
+
 .chat-container {
     display: flex;
     flex-direction: column;

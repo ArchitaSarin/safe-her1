@@ -7,17 +7,25 @@ import '../Styles/createpost.css';
 const EMOJI_API_KEY = '1025bc012266b6a5a3eecd2076d54d894e99eda4'; // need env later
 let allEmojis = [];
 
-export const CreatePost = ({ user }) => { // user prop
+export const CreatePost = ({ user }) => {
   const [title, setTitle] = useState('');
   const [content, setContent] = useState('');
   const [posts, setPosts] = useState([]);
 
   useEffect(() => {
-    fetch('/api/posts') // get user post
-      .then(response => response.json())
-      .then(data => setPosts(data))
-      .catch(error => console.error('Error fetching posts:', error));
-  }, []);
+    if (user) {
+      fetch(`http://localhost:5001/post/user/${user.email}`)
+        .then(response => response.json())
+        .then(data => {
+          if (Array.isArray(data)) {
+            setPosts(data);
+          } else {
+            console.error('Invalid response format:', data);
+          }
+        })
+        .catch(error => console.error('Error fetching posts:', error));
+    }
+  }, [user]);
 
   function toggleEmojiPanel() {
     const container = document.getElementById('emoji-container');
@@ -68,41 +76,53 @@ export const CreatePost = ({ user }) => { // user prop
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    fetch('/api/posts', { // need post request
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ title, content })
-    })
-      .then(response => response.json())
-      .then(data => {
-        setPosts([...posts, data]);
-        setTitle('');
-        setContent('');
+    if (user) {
+      const requestBody = {
+        title,
+        content,
+        email: user.email,
+        name: user.name
+      };
+      fetch(`http://localhost:5001/post/${user.email}`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(requestBody)
       })
-      .catch(error => console.error('Error posting:', error));
+        .then(response => response.json())
+        .then(data => {
+          setPosts([...posts, data]);
+          setTitle('');
+          setContent('');
+        })
+        .catch(error => console.error('Error posting:', error));
+    }
   };
 
   const handleDeleteClick = async (postId) => {
     try {
-      const response = await fetch(`/delete/${postId}`, {  // need delete request (unique)
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({ postId })
-      });
-
-      const data = await response.json();
-
-      if (data.status === 'success') {
-        setPosts(posts.filter(post => post.id !== postId));
-      } else {
-        console.error('Failed to delete post');
+      if (user) {
+        const response = await fetch(`http://localhost:5001/post/delete/${postId}/${user.email}`, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({ email: user.email })
+        });
+  
+        const data = await response.json();
+  
+        if (data.status === 'success') {
+          const updatedPosts = posts.filter(post => post._id !== postId);
+          setPosts(updatedPosts); 
+        } else {
+          console.error('Failed to delete post');
+        }
       }
     } catch (error) {
       console.error('Error:', error);
     }
   };
+  
 
   return (
     <div className="content-container">
@@ -152,17 +172,17 @@ export const CreatePost = ({ user }) => { // user prop
           {posts.length ? (
             <ul>
               {posts.map(post => (
-                <li key={post.id} className="post">
+                <li key={post._id} className="post">
                   <div className="post-content preserve-newlines">
                     <h1 className="spanTitle">{post.title}</h1>
-                    <p>Posted By: {post.username} on {new Date(post.timestamp).toLocaleString()}</p>
+                    <p className="spanPosted">Posted By: {post.name} on {post.timestamp}</p>
                     <p className="spanContent">{post.content}</p>
                     <div className="post-status-bar">
-                        <FontAwesomeIcon
-                          icon={faTrash}
-                          className="delete-button"
-                          onClick={() => handleDeleteClick(post.id)}
-                        />
+                      <FontAwesomeIcon
+                        icon={faTrash}
+                        className="delete-button"
+                        onClick={() => handleDeleteClick(post._id)}
+                      />
                     </div>
                   </div>
                 </li>

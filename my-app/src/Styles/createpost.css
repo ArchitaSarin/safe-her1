@@ -14,13 +14,21 @@ ul {
     padding-inline-start: 0px !important;
 }
 
-h1 {
+.content-container h1 {
     font-family: "Outfit", sans-serif;
     display: flex;
-    justify-content: center;
     font-weight: 600;
     font-size: 24px;
     color: black;
+}
+
+.content-container p {
+    font-size: 16px;
+}
+
+.spanPosted {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 15px;
 }
 
 .post-form{
@@ -28,6 +36,10 @@ h1 {
     flex-direction: column;
     align-items: flex-start;
     width: 100%;
+}
+
+.posts-list li {
+    margin-top: 15px;
 }
 
 .create-post-header {
@@ -145,10 +157,9 @@ form {
 .post-status-bar {
     display: flex;
     font-size: 15px;
-    padding: 10px 5px 10px 5px;
+    padding: 5px;
     justify-content: end;
     margin: 2px;
-    border-top: solid 2px rgb(173, 173, 173);
 }
 
 .liked {
@@ -215,6 +226,11 @@ form {
     width: 50%;
 }
 
+.gridItem2 {
+    max-height: 600px;
+    overflow-y: scroll;
+}
+
 @media(max-width: 782px) {
     header {
         flex-direction: column;
@@ -232,6 +248,7 @@ form {
         gap: 50px;
     }
     h1 {
+        justify-content: center;
         text-align: center;
         display: flex;
         align-items: center;
@@ -246,5 +263,11 @@ form {
     }
     .gridItem1 {
         margin-bottom: 4%;
+        width: 70%;
+    }
+    .gridItem2 {
+        width: 70%;
+        max-height: fit-content;
+        overflow-y: visible;
     }
 }
