@@ -16,13 +16,13 @@ export const Art = () => {
         <div>
             <div className="art-intro">
                 <div class="title-container">
-                    <span class="title-text1"> Art </span>
+                    <span class="title-text1"> Artboard </span>
                 </div>
 
                 <p class="body-text">
                 </p>
 
-                <btn class="art-btn"> Submit </btn>
+                <btn class="art-btn"> Submit Your Own Art! </btn>
             </div>
 
             <div class="grid-container">

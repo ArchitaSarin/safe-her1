@@ -12,10 +12,6 @@
   background-color: black;
 }
 
-.title-container {
-  padding: 0%;
-}
-
 .art-intro {
   background: linear-gradient(#CED2FF, #FDF8F8);
   padding-top: 10%;
@@ -24,33 +20,31 @@
 }
 
 .art-intro .title-text1 {
-  font-size: 72px;
+  font-size: 5rem;
+  color: #8D94E2;
+  font-weight: bold;
 }
 
 .art-btn, .delete-btn {
   appearance: none;
   font-family: "Didact Gothic", sans-serif;
   background-color: #CED2FF;
-  color: black;
-  cursor: pointer;
-  border-radius: 50px;
-  font-size: 1rem;
-  font-weight: 400;
+  color: white;
+  font-weight: bold;
+  font-size: 1.3rem;
   padding: 1% 5%;
-  text-decoration: none;
+  cursor: pointer;
   text-align: center;
-  box-shadow: 0 25px 20px -20px rgba(0, 0, 0, 0.4);
 }
+
 
 .grid-container img {
   border-radius: 25px;
 }
 
-.body-text {
-  padding: 2%;
-}
-
 .grid-container {
+    background-color: #FDF8F8;
+    padding: 5%;
     padding-top: 1%;
     -webkit-column-count: 3;
     -moz-column-count:3;
