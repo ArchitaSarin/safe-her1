@@ -4,6 +4,17 @@ import '../Styles/team.css';
 import {Card} from "./individual components/member";
 import ArchitaHeadshot from "../Images/headshots/archita.png"
 import IpsitaHeadshot from "../Images/headshots/ipsita.jpeg"
+import SaniaHeadshot from "../Images/headshots/sania.png"
+import GiangHeadshot from "../Images/headshots/giang.png"
+import TanyaHeadshot from "../Images/headshots/tanya.jpg"
+import HaylieHeadshot from "../Images/headshots/haylie.png"
+import KellyHeadshot from "../Images/headshots/kelly.JPG"
+import KylieHeadshot from "../Images/headshots/kylie.jpg"
+import JordanHeadshot from "../Images/headshots/jordan.jpg"
+import AnviHeadshot from "../Images/headshots/anvi.png"
+import JadeHeadshot from "../Images/headshots/jade.jpg"
+import GrishaHeadshot from "../Images/headshots/grisha.jpeg"
+import DivyaHeadshot from "../Images/headshots/divya.png"
 
 import LinkedIn from "../Images/linkedin.png"
 
@@ -80,88 +91,319 @@ export const Team = () => {
                     </div>
                 </div>
 
-                {/* ipsitas profile */}
+                {/* ipsita profile */}
                 <div className="child">
-                    <div className="card-info-child">
-                        <h2>Ipsita ---</h2>
-                        <p>she/her</p>
-                        <p>project manager</p>
-                        <p>computer science</p>
-                        <p>2027</p>
+                    <div className="card-info-top">
+                        <p>
+                            UC Davis Class of 2027
+                        </p>
+
+                        <img src={LinkedIn} alt="linkedin" className="card-image"/>
+
+                        
                     </div>
 
                     <div className="card-info-child">
-                        <img src={IpsitaHeadshot} alt="girlhood abstract art" className="card-image"/>
+                        <h2>Ipsita Chauhan</h2>
+                        <h4>Position</h4>
+                            <p>Project Manager</p>
+                        <h4>Major</h4>
+                        <p>Mechanical Engineering & Aerospace Science and Engineering</p>
+                    </div>
+
+                    <div className="card-info-child">
+                        <img src={IpsitaHeadshot} alt="Archita" className="card-image"/>
                     </div>
                 </div>
 
             {/* Designers section  */}
                 <h1>Designers</h1>
 
+                {/* Sania profile */}
                 <div className="child">
-                    <div className="card-info-child">
-                        <h2>Sania Heydarfadai</h2>
-                        <p>she/her</p>
-                        <p>project manager</p>
-                        <p>computer science</p>
-                        <p>2027</p>
+                    <div className="card-info-top">
+                        <p>
+                            UC Davis Class of 2025
+                        </p>
+
+                        <img src={LinkedIn} alt="linkedin" className="card-image"/>
+
+                        
                     </div>
 
                     <div className="card-info-child">
-                        <img src={ArchitaHeadshot} alt="girlhood abstract art" className="card-image"/>
+                        <h2>Sania Heydarfadai</h2>
+                        <h4>Position</h4>
+                            <p>Product Designer</p>
+                        <h4>Major</h4>
+                        <p>Design, Technology Management Minor</p>
+                    </div>
+
+                    <div className="card-info-child">
+                        <img src={SaniaHeadshot} alt="Sania" className="card-image"/>
                     </div>
                 </div>
 
+                {/* Giang profile */}
                 <div className="child">
-                    <div className="card-info-child">
-                        <h2>Giang Le </h2>
-                        <p>she/her</p>
-                        <p>project manager</p>
-                        <p>computer science</p>
-                        <p>2027</p>
+                    <div className="card-info-top">
+                        <p>
+                            UC Davis Class of 2026
+                        </p>
+
+                        <img src={LinkedIn} alt="linkedin" className="card-image"/>
+
+                        
                     </div>
 
                     <div className="card-info-child">
-                        <img src={IpsitaHeadshot} alt="girlhood abstract art" className="card-image"/>
+                        <h2>Giang Le</h2>
+                        <h4>Position</h4>
+                            <p>Product Designer</p>
+                        <h4>Major</h4>
+                        <p>Design & Statistics</p>
+                    </div>
+
+                    <div className="card-info-child">
+                        <img src={GiangHeadshot} alt="Giang" className="card-image"/>
                     </div>
                 </div>
 
             {/* researchers section  */}
-                <h1>Designers</h1>
+                <h1>Researchers</h1>
 
+                {/* Tanya profile */}
                 <div className="child">
-                    <div className="card-info-child">
-                        <h2>Archita Sarin</h2>
-                        <p>she/her</p>
-                        <p>project manager</p>
-                        <p>computer science</p>
-                        <p>2027</p>
+                    <div className="card-info-top">
+                        <p>
+                            UC Davis Class of 2025
+                        </p>
+
+                        <img src={LinkedIn} alt="linkedin" className="card-image"/>
+
+                        
                     </div>
 
                     <div className="card-info-child">
-                        <img src={ArchitaHeadshot} alt="girlhood abstract art" className="card-image"/>
+                        <h2>Tanya Jalal</h2>
+                        <h4>Position</h4>
+                            <p>Researcher</p>
+                        <h4>Major</h4>
+                        <p>Mathematical Analytics & Operations Research</p>
+                    </div>
+
+                    <div className="card-info-child">
+                        <img src={TanyaHeadshot} alt="Tanya" className="card-image"/>
                     </div>
                 </div>
 
+            {/* researchers section  */}
+            <h1>Developers</h1>
+
+                {/* Haylie profile */}
                 <div className="child">
-                    <div className="card-info-child">
-                        <h2>Ipsita ---</h2>
-                        <p>she/her</p>
-                        <p>project manager</p>
-                        <p>computer science</p>
-                        <p>2027</p>
+                    <div className="card-info-top">
+                        <p>
+                            UC Davis Class of 2027
+                        </p>
+
+                        <img src={LinkedIn} alt="linkedin" className="card-image"/>
+
+                        
                     </div>
 
                     <div className="card-info-child">
-                        <img src={IpsitaHeadshot} alt="girlhood abstract art" className="card-image"/>
+                        <h2>Haylie Tan</h2>
+                        <h4>Position</h4>
+                            <p>Developer</p>
+                        <h4>Major</h4>
+                        <p>Mathematics and Scientific Computation</p>
+                    </div>
+
+                    <div className="card-info-child">
+                        <img src={HaylieHeadshot} alt="Haylie" className="card-image"/>
                     </div>
                 </div>
 
+                {/* Kelly profile */}
+                <div className="child">
+                    <div className="card-info-top">
+                        <p>
+                            UC Davis Class of 2026
+                        </p>
+
+                        <img src={LinkedIn} alt="linkedin" className="card-image"/>
+
+                        
+                    </div>
+
+                    <div className="card-info-child">
+                        <h2>Kelly Phan</h2>
+                        <h4>Position</h4>
+                            <p>Developer</p>
+                        <h4>Major</h4>
+                        <p>Computer Science</p>
+                    </div>
+
+                    <div className="card-info-child">
+                        <img src={KellyHeadshot} alt="Kelly" className="card-image"/>
+                    </div>
+                </div>
+
+                {/* Kylie profile */}
+                <div className="child">
+                    <div className="card-info-top">
+                        <p>
+                            UC Davis Class of 2026
+                        </p>
+
+                        <img src={LinkedIn} alt="linkedin" className="card-image"/>
+
+                        
+                    </div>
+
+                    <div className="card-info-child">
+                        <h2>Kylie Lallan</h2>
+                        <h4>Position</h4>
+                            <p>Developer</p>
+                        <h4>Major</h4>
+                        <p>Computer Science</p>
+                    </div>
+
+                    <div className="card-info-child">
+                        <img src={KylieHeadshot} alt="Kylie" className="card-image"/>
+                    </div>
+                </div>
+
+                {/* Jordan profile */}
+                <div className="child">
+                    <div className="card-info-top">
+                        <p>
+                            UC Davis Class of 2026
+                        </p>
+
+                        <img src={LinkedIn} alt="linkedin" className="card-image"/>
+
+                        
+                    </div>
+
+                    <div className="card-info-child">
+                        <h2>Jordan Thompson</h2>
+                        <h4>Position</h4>
+                            <p>Developer</p>
+                        <h4>Major</h4>
+                        <p>Computer Science</p>
+                    </div>
+
+                    <div className="card-info-child">
+                        <img src={JordanHeadshot} alt="Jordan" className="card-image"/>
+                    </div>
+                </div>
+
+                {/* Anvi profile */}
+                <div className="child">
+                    <div className="card-info-top">
+                        <p>
+                            UC Davis Class of 2026
+                        </p>
+
+                        <img src={LinkedIn} alt="linkedin" className="card-image"/>
+
+                        
+                    </div>
+
+                    <div className="card-info-child">
+                        <h2>Anvi Kalucha</h2>
+                        <h4>Position</h4>
+                            <p>Developer</p>
+                        <h4>Major</h4>
+                        <p>Computer Science</p>
+                    </div>
+
+                    <div className="card-info-child">
+                        <img src={AnviHeadshot} alt="Anvi" className="card-image"/>
+                    </div>
+                </div>
+
+                {/* Jade profile */}
+                <div className="child">
+                    <div className="card-info-top">
+                        <p>
+                            UC Davis Class of 2026
+                        </p>
+
+                        <img src={LinkedIn} alt="linkedin" className="card-image"/>
+
+                        
+                    </div>
+
+                    <div className="card-info-child">
+                        <h2>Xinhui Zhang</h2>
+                        <h4>Position</h4>
+                            <p>Developer</p>
+                        <h4>Major</h4>
+                        <p>Statistics</p>
+                    </div>
+
+                    <div className="card-info-child">
+                        <img src={JadeHeadshot} alt="Jade" className="card-image"/>
+                    </div>
+                </div>
+
+            {/* researchers section  */}
+            <h1>Mentors</h1>
+
+                {/* Grisha profile */}
+                <div className="child">
+                    <div className="card-info-top">
+                        <p>
+                            UC Davis Class of 2024
+                        </p>
+
+                        <img src={LinkedIn} alt="linkedin" className="card-image"/>
+
+                        
+                    </div>
+
+                    <div className="card-info-child">
+                        <h2>Grisha Bandodkar</h2>
+                        <h4>Position</h4>
+                            <p>Mentor</p>
+                        <h4>Major</h4>
+                        <p>Computer Science & Engineering</p>
+                    </div>
+
+                    <div className="card-info-child">
+                        <img src={GrishaHeadshot} alt="Grisha" className="card-image"/>
+                    </div>
+                </div>
+
+                {/* Divya profile */}
+                <div className="child">
+                    <div className="card-info-top">
+                        <p>
+                            UC Davis Class of 2024
+                        </p>
+
+                        <img src={LinkedIn} alt="linkedin" className="card-image"/>
+
+                        
+                    </div>
+
+                    <div className="card-info-child">
+                        <h2>Divya Gautam</h2>
+                        <h4>Position</h4>
+                            <p>Mentor</p>
+                        <h4>Major</h4>
+                        <p>Industrial and Product Design</p>
+                    </div>
+
+                    <div className="card-info-child">
+                        <img src={DivyaHeadshot} alt="Divya" className="card-image"/>
+                    </div>
+                </div>
 
             </div>  
-
-
-
         </div>
     )
 }

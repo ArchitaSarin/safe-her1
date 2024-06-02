@@ -25,6 +25,14 @@
     padding: 5%;
 }
 
+.team-category h1 {
+    padding-top: 5%;
+    text-align: left;
+    padding-left: 10%;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
 .vl {
     border-left: 4px solid #8B9A4C;
     height: 250px;
@@ -53,11 +61,6 @@
 .team-category {
     padding: 3%;
     text-align: center;
-}
-
-.team-category h1{
-    text-align: left;
-    font-size: 2rem;
 }
 
 .child {
