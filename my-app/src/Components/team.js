@@ -5,6 +5,9 @@ import {Card} from "./individual components/member";
 import ArchitaHeadshot from "../Images/headshots/archita.png"
 import IpsitaHeadshot from "../Images/headshots/ipsita.jpeg"
 
+import LinkedIn from "../Images/linkedin.png"
+
+
 const boardMembers = [
     { name: 'Archita Sarin', pronouns: 'she/her', position: 'Project Manager', major: 'Computer Science', year: '2027', imageUrl: '/Images/headshots/archita.png' },
     { name: 'Second Last', pronouns: 'pronouns/pronouns', position: 'Position', major: 'X major', year: 'X year', imageUrl: '../Images/headshots/archita.png' }
@@ -54,16 +57,26 @@ export const Team = () => {
 
                 {/* archita profile */}
                 <div className="child">
-                    <div className="card-info-child">
-                        <h2>Archita Sarin</h2>
-                        <p>she/her</p>
-                        <p>project manager</p>
-                        <p>computer science</p>
-                        <p>2027</p>
+                    <div className="card-info-top">
+                        <p>
+                            UC Davis Class of 2027
+                        </p>
+
+                        <img src={LinkedIn} alt="linkedin" className="card-image"/>
+
+                        
                     </div>
 
                     <div className="card-info-child">
-                        <img src={ArchitaHeadshot} alt="girlhood abstract art" className="card-image"/>
+                        <h2>Archita Sarin</h2>
+                        <h4>Position</h4>
+                            <p>Project Manager</p>
+                        <h4>Major</h4>
+                        <p>Computer Science</p>
+                    </div>
+
+                    <div className="card-info-child">
+                        <img src={ArchitaHeadshot} alt="Archita" className="card-image"/>
                     </div>
                 </div>
 
