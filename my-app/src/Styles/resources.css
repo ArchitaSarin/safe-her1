@@ -49,10 +49,11 @@
 }
 
 @media (max-width:896px) {
-    #header-box-container{
+    #header-box-container {
         display: flex;
-        flex-direction: column;
-        align-items: center;
+        justify-content: center;
+        align-items: center; /* Ensures vertical centering */
+        margin: 0 auto; /* Ensures no offset from the edges */
     }
     .header-box-button{
         background-color: #E8848E;
